@@ -1,0 +1,32 @@
+.cart-list
+{
+    padding: 0 10px;
+    ion-row
+    {
+        box-shadow:0px 14px 36px rgba(52, 153, 246, 0.29) !important;
+        color: var(--ion-color-primary) !important;
+        margin-top: 15px !important;
+        padding: 5px 0 !important;
+    }
+    #img-col
+    {
+        padding-top: 15px;
+        img{
+            height: 35px !important;
+        }
+    }
+
+    #close-col
+    {
+        padding-top: 20px !important;
+    }
+
+    h4{
+        margin: 0 !important;
+    }
+
+    .qunty
+    {
+        box-shadow:0px 2px 25px rgba(0, 0, 0, 0.1) !important;
+    }
+}

@@ -1,0 +1,56 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="doctorlist"></ion-back-button>
+    </ion-buttons>
+    <ion-title text-center class="double-title">
+      <h5 *ngIf="user">{{user.name}}</h5>
+      <p *ngIf="user">{{user.type}}</p>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="header-container">
+    <img src="assets/imgs/header-nav.jpg" alt="">
+  </div>
+  <div class="top-btns-holder" text-center>
+    <ion-row>
+      <ion-col size="4" class="btns-col">
+        <ion-button (click)="showCallModal()">
+          <img src="assets/imgs/phone-call.svg" alt="">
+        </ion-button>
+      </ion-col>
+      <ion-col size="4" id="top-pic-holder">
+        <img src="assets/imgs/docpic.png" alt="">
+      </ion-col>
+      <ion-col size="4" class="btns-col">
+        <ion-button (click)="goChat()">
+          <img src="assets/imgs/speech-bubble.svg" alt="">
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </div>
+  <div class="ratings-d" text-center>
+    <p> <span> <img src="assets/imgs/star.svg" alt=""></span> 5 <span id="num">(200 evaluations)</span> </p>
+  </div>
+  <div class="description-holder" text-center padding>
+    <div class="desc-card" text-center padding>
+      <p>He is a specialist in heart
+        surgery. He studied at
+        Harvard University
+        and have a postgraduate
+        degree in Cardiology
+      </p>
+    </div>
+  </div>
+
+  
+    <ion-button (click)="schedule(user.id)" class="iontoolbar" expand="block">
+      SCHEDULE CONSULTATION
+    </ion-button>
+</ion-content>
+
+
+
+<footer></footer>

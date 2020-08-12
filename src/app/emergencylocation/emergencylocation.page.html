@@ -1,0 +1,54 @@
+<ion-header no-border>
+    
+	<ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="emergency"></ion-back-button>
+          </ion-buttons>
+		<ion-title text-center>Where is the emergency?</ion-title>
+
+	</ion-toolbar>
+
+</ion-header>
+
+<ion-content>
+
+    <div class="header-container">
+		<img src="assets/imgs/header-nav.jpg" alt="">
+	</div>
+	<div class="btns-holder" padding>
+
+		<ion-button expand="block" text-center id="login" >
+			Get your location
+		</ion-button>
+		
+	</div>
+	
+
+	<div class="front">
+		<div class="the-form" padding>
+
+			<ion-item class="input-item ">
+				<span slot="start">
+					<img src="assets/imgs/icn-avatar.svg" alt="">
+				</span>
+				<ion-input [(ngModel)]="location" type="text" placeholder="Add you location" text-left 
+					inputmode="location"></ion-input>
+			</ion-item>
+
+		</div>
+	</div>
+
+	<div class="" padding>
+
+		<ion-button (click)="saveLocation()" expand="block" text-center id="login" [routerLink]="['/emergencyphone']">
+			Next
+		</ion-button>
+		
+	</div>
+		
+
+	<div class="bottom-img-holder" padding-horizontal>
+		<img src="assets/imgs/login-bottom-img.svg" alt="">
+	</div>
+</ion-content>
+<footer></footer>

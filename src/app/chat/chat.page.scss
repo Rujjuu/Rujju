@@ -1,0 +1,55 @@
+@import './chatui.scss';
+
+  
+  ion-footer
+  {
+      ion-toolbar
+      {
+          --background:  #E9F0FD !important;
+      }
+    ion-textarea {
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      --background: #E9F0FD;
+      --padding-start: 12px;
+      --padding-end: 64px;
+      --padding-top: 6px;
+      --padding-bottom: 8px;
+    }
+  
+    .has-elastic-input {
+      padding: 4px 8px;
+    }
+  
+    .stick-bottom {
+      align-self: flex-end;
+      margin-bottom: 4px;
+    }
+  
+  
+    .button-submit {
+      position: absolute;
+      right: 12px;
+      bottom: 2px;
+      ion-button {
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    }
+  
+    .input-block {
+      margin-left: 8px;
+    }
+  }
+  
+  .avatar-col
+  {
+    padding-top: 15px !important;
+  }
+  :host-context(.md) {
+    .has-elastic-input {
+      .stick-bottom {
+      //  margin-bottom: 10px;
+      }
+    }
+  }
+  

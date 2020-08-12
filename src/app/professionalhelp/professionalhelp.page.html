@@ -1,0 +1,65 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title text-center>Professional Help</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="header-container">
+    <img src="assets/imgs/header-nav.jpg" alt="">
+  </div>
+  <div class="cat-menu">
+    <ion-grid>
+      <ion-row class="cat-row" text-center>
+        <ion-col size="5" class="cat-col">
+          <ion-button text-center fill="none" expand="block" (click)="goAppointment()">
+            <ion-label>
+              <img src="assets/imgs/fdocicns/fd1.svg" alt="">
+              <p>Counselors</p>
+            </ion-label>
+          </ion-button>
+        </ion-col>
+        <ion-col size="5" class="cat-col">
+          <ion-button text-center fill="none" (click)="goAppointment()">
+            <ion-label>
+              <img src="assets/imgs/fdocicns/fd2.svg" alt="">
+              <p>Therapist</p>
+            </ion-label>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row class="cat-row" text-center>
+        <ion-col size="5" class="cat-col">
+          <ion-button text-center fill="none" expand="block" (click)="goAppointment()">
+            <ion-label>
+              <img src="assets/imgs/fdocicns/fd6.svg" alt="">
+              <p>Psychatrist</p>
+            </ion-label>
+          </ion-button>
+        </ion-col>
+        <ion-col size="5" class="cat-col">
+          <ion-button text-center fill="none" (click)="goAppointment()">
+            <ion-label>
+              <img src="assets/imgs/fdocicns/fd4.svg" alt="">
+              <p text-wrap>Ophthalmology</p>
+            </ion-label>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row class="cat-row" text-center>
+          <ion-col size="5" class="cat-col">
+            <ion-button text-center fill="none" expand="block">
+              <ion-label>
+                <img src="assets/imgs/fdocicns/fd5.svg" alt="">
+                <p>General Doctor</p>
+              </ion-label>
+            </ion-button>
+          </ion-col>
+          
+        </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

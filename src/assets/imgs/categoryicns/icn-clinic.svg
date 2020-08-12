@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="175.515" height="176" viewBox="0 0 175.515 176">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2d8fff"/>
+      <stop offset="1" stop-color="#9bcaff"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_21" data-name="Group 21" transform="translate(80 -253)">
+    <path id="Path_2" data-name="Path 2" d="M0,0H175V175H0Z" transform="translate(-80 254)" fill="none"/>
+    <g id="hospital" transform="translate(-80 253)">
+      <path id="Fill_1" data-name="Fill 1" d="M175.515,176H0v-5.647H19.817V68.6l-7.24,4.331L1.628,53.285,87.757,0l86.129,53.32L162.939,72.929,155.7,68.6V170.353h19.818V176ZM87.757,28.029,25.5,65.2v105.15H150.016V65.237Zm0-21.377L9.216,55.26l5.472,9.8L87.757,21.411l73.069,43.653,5.473-9.8Z" fill="url(#linear-gradient)"/>
+      <path id="Fill_4" data-name="Fill 4" d="M79.269,79.27H0V0H79.269V79.269ZM5.682,5.682v67.94H73.588V5.682Z" transform="translate(48.123 76.913)" fill="url(#linear-gradient)"/>
+      <path id="Fill_5" data-name="Fill 5" d="M36.828,50.963H14.171V36.828H0V14.171H14.171V0H36.828V14.135H51V36.794H36.828V50.962ZM5.648,19.817V31.146h14.17V45.317H31.146V31.146h14.17V19.817H31.146V5.648H19.817v14.17Z" transform="translate(62.258 91.083)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

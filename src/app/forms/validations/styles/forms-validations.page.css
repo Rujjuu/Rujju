@@ -1,0 +1,77 @@
+:host {
+  --page-margin: var(--app-fair-margin);
+  --page-background: var(--app-background-shade); }
+
+.forms-validations-content .validations-form .inputs-list {
+  padding: var(--page-margin) var(--page-margin) calc(var(--page-margin) * 2); }
+  .forms-validations-content .validations-form .inputs-list ion-list-header {
+    padding-inline-start: 0px; }
+    .forms-validations-content .validations-form .inputs-list ion-list-header .header-title {
+      text-transform: uppercase;
+      font-size: 16px;
+      color: var(--ion-color-secondary); }
+  .forms-validations-content .validations-form .inputs-list .input-item {
+    --padding-start: 0px;
+    --padding-end: 0px;
+    --inner-padding-end: 0px; }
+  .forms-validations-content .validations-form .inputs-list .terms-item {
+    --border-width: 0px;
+    --inner-padding-end: 0px; }
+  .forms-validations-content .validations-form .inputs-list .error-container .error-message {
+    margin: calc(var(--page-margin) / 2) 0px;
+    display: flex;
+    align-items: center;
+    color: var(--ion-color-danger);
+    font-size: 14px; }
+    .forms-validations-content .validations-form .inputs-list .error-container .error-message ion-icon {
+      padding-inline-end: calc(var(--page-margin) / 2);
+      flex-shrink: 0; }
+  .forms-validations-content .validations-form .inputs-list .error-container .confirm-message {
+    margin: calc(var(--page-margin) / 2) 0px;
+    display: flex;
+    align-items: center;
+    color: var(--ion-color-success);
+    font-size: 14px; }
+    .forms-validations-content .validations-form .inputs-list .error-container .confirm-message ion-icon {
+      padding-inline-end: calc(var(--page-margin) / 2);
+      flex-shrink: 0; }
+  .forms-validations-content .validations-form .inputs-list .counter-item app-counter-input {
+    --counter-background: transparent;
+    --counter-color: var(--ion-color-primary);
+    --counter-border-color: var(--ion-color-primary); }
+  .forms-validations-content .validations-form .inputs-list .counter-item .counter-value {
+    text-align: center; }
+.forms-validations-content .validations-form .submit-btn {
+  margin: var(--page-margin); }
+
+::ng-deep .select-alert {
+  --select-alert-color: #000;
+  --select-alert-background: #FFF;
+  --select-alert-margin: 16px;
+  --select-alert-color: var(--ion-color-lightest);
+  --select-alert-background: var(--ion-color-primary);
+  --select-alert-margin: 16px; }
+  ::ng-deep .select-alert .alert-head {
+    padding-top: calc((var(--select-alert-margin) / 4) * 3);
+    padding-bottom: calc((var(--select-alert-margin) / 4) * 3);
+    padding-inline-start: var(--select-alert-margin);
+    padding-inline-end: var(--select-alert-margin); }
+  ::ng-deep .select-alert .alert-title {
+    color: var(--select-alert-color); }
+  ::ng-deep .select-alert .alert-head,
+  ::ng-deep .select-alert .alert-message {
+    background-color: var(--select-alert-background); }
+  ::ng-deep .select-alert .alert-wrapper.sc-ion-alert-ios .alert-title {
+    margin: 0px; }
+  ::ng-deep .select-alert .alert-wrapper.sc-ion-alert-md .alert-title {
+    font-size: 18px;
+    font-weight: 400; }
+  ::ng-deep .select-alert .alert-wrapper.sc-ion-alert-md .alert-button {
+    --padding-top: 0;
+    --padding-start: 0.9em;
+    --padding-end: 0.9em;
+    --padding-bottom: 0;
+    height: 2.1em;
+    font-size: 13px; }
+  ::ng-deep .select-alert .alert-message {
+    display: none; }

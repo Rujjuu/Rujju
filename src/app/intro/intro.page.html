@@ -1,0 +1,57 @@
+<ion-content>
+  <ion-slides mode="ios" pager="ios" scrollbar="false" (ionSlideDidChange)="onSlideChange()" #slidess>
+    <ion-slide>
+      <div class="slide-img animated pulse" [ngClass]="animate">
+        <img src="assets/imgs/introImg1.svg" alt="">
+      </div>
+      <div class="slide-card" padding-horizontal>
+        <h3 class="slide-title">
+          Family
+        </h3>
+        <p class="slide-description" text-wrap>
+          Your family with quality mental health and
+          well being
+        </p>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="slide-img" [ngClass]="animate">
+        <img src="assets/imgs/introImg2.svg" alt="">
+      </div>
+      <div class="slide-card" padding-horizontal>
+        <h3 class="slide-title">
+          Doctors
+        </h3>
+        <p class="slide-description" text-wrap>
+          Find the doctors, tharapists and Psychiatrist
+        </p>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="slide-img" [ngClass]="animate">
+        <img src="assets/imgs/introImg2.svg" alt="">
+      </div>
+      <div class="slide-card" padding-horizontal>
+        <h3 class="slide-title">
+          Schedule
+        </h3>
+        <p class="slide-description" text-wrap>
+          Schedule appointments and have call with them through
+          the app
+        </p>
+      </div>
+    </ion-slide>
+    <ion-slide text-center class="ion-padding">
+      <div style="margin-top: 60%">
+          <ion-grid style="height: 100%">
+              <ion-row justify-content-center align-items-center style="height: 100%">
+                <ion-button (click)="goSignIn()" [ngClass]="animate">
+                  Let's Start
+                </ion-button>
+              </ion-row>
+            </ion-grid>
+      </div>
+    
+    </ion-slide>
+  </ion-slides>
+</ion-content>

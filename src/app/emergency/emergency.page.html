@@ -1,0 +1,64 @@
+<ion-header no-border>
+    
+	<ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="home"></ion-back-button>
+        </ion-buttons>
+		<ion-title text-center>Choose type of emergency</ion-title>
+		
+	</ion-toolbar>
+
+</ion-header>
+
+<ion-content>
+    <div class="header-container">
+		<img src="assets/imgs/header-nav.jpg" alt="">
+	</div>
+  <div class="cat-menu">
+		<ion-grid>
+			<ion-row class="cat-row" text-center>
+				<ion-col class="cat-col">
+          
+					<ion-button (click)="savetype('accident')" text-center fill="none" expand="block" [routerLink]="['/emergencylocation']">
+					<ion-label>
+						<img src="assets/imgs/categoryicns/icn-accident.png" alt="">
+						<p>Accident</p>
+					</ion-label>
+					</ion-button>
+					
+				</ion-col>
+				<ion-col  class="cat-col">
+					<ion-button (click)="savetype('injury')" text-center fill="none" expand="block" [routerLink]="['/emergencylocation']">
+						<ion-label>
+							<img src="assets/imgs/categoryicns/icn-bandage.png" alt="">
+							<p>Injury</p>
+						</ion-label>
+					</ion-button>
+				</ion-col>
+			</ion-row>
+			<ion-row class="cat-row" text-center>
+				<ion-col class="cat-col">
+					<ion-button (click)="savetype('heart_attack')" text-center fill="none" expand="block" [routerLink]="['/emergencylocation']">
+						<ion-label>
+							<img src="assets/imgs/categoryicns/icn-heart-with-pulse.png" alt="">
+							<p>Heat Attack</p>
+						</ion-label>
+					</ion-button>
+				</ion-col>
+				<ion-col class="cat-col">
+					<ion-button (click)="savetype('mental_health')" text-center fill="none" expand="block" [routerLink]="['/emergencylocation']">
+						<ion-label>
+							<img src="assets/imgs/categoryicns/icn-beginner.png" alt="">
+							<p>Mental Health</p>
+						</ion-label>
+					</ion-button>
+				</ion-col>
+			</ion-row>
+
+		</ion-grid>
+    </div>
+    <div class="bottom-img-holder" padding-horizontal>
+		<img src="assets/imgs/login-bottom-img.svg" alt="">
+	</div>
+</ion-content>
+<footer></footer>

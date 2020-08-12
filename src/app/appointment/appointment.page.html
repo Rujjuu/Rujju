@@ -1,0 +1,56 @@
+<ion-header no-border>
+  
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="docdetails"></ion-back-button>
+    </ion-buttons>
+    <ion-title text-center>Book Appointment</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="header-container">
+    <img src="assets/imgs/header-nav.jpg" alt="">
+  </div>
+
+  <div>
+    <div class="front">
+      <div class="the-form" padding>
+        <ion-item>
+          <span slot="start">
+            <img src="assets/imgs/icn-padlock.svg" alt="">
+          </span>
+          <ion-datetime placeholder="Select Date"  displayFormat="YYYY-MM-DD" (ionChange)="getDate($event.target.value)"></ion-datetime>
+          
+          <!-- <ion-input type="text" placeholder="Available Dates"></ion-input> -->
+        </ion-item>
+        <ion-item>
+          <span slot="start">
+            <img src="assets/imgs/icn-padlock.svg" alt="">
+          </span>
+          <ion-datetime placeholder="Select Time"  displayFormat="HH:mm" (ionChange)="getTime($event.target.value)" minuteValues="0,30" hourValues="9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22"></ion-datetime>
+          
+        </ion-item>
+        <ion-item>
+          <span slot="start">
+            <img src="assets/imgs/icn-padlock.svg" alt="">
+          </span>
+          <ion-input type="text" [(ngModel)]="phone" placeholder="Phone Number"></ion-input>
+        </ion-item>
+        <ion-item>
+          <span slot="start">
+            <img src="assets/imgs/icn-avatar.svg" alt="">
+          </span>
+          <ion-input type="text" [(ngModel)]="email" placeholder="Email" text-left></ion-input>
+        </ion-item>
+        
+      </div>
+    </div>
+    
+  </div>
+  
+  <ion-button (click)="book()"  expand="block">
+    Book
+  </ion-button>
+</ion-content>
+<footer></footer>

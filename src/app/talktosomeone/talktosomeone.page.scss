@@ -1,0 +1,20 @@
+
+
+.item-radio-checked
+{
+    --background: #2D8FFF !important;
+    --color:white !important;
+    ion-radio
+    {
+        --color:white !important;
+        .radio-icon
+        {
+            display: none !important;
+        }
+        
+    }
+}
+
+
+            
+             

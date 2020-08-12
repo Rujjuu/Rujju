@@ -1,0 +1,36 @@
+<ion-header no-border>
+
+	<ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="home"></ion-back-button>
+        </ion-buttons>
+		<ion-title text-center>Select chat type</ion-title>
+
+	</ion-toolbar>
+
+</ion-header>
+
+<ion-content>
+    <div class="header-container">
+		<img src="assets/imgs/header-nav.jpg" alt="">
+	</div>
+
+	<div class="btns-holder" padding>
+
+		<ion-button expand="block" text-center [routerLink]="['/chat']">
+			Automated Chat
+		</ion-button>
+		
+	
+		<ion-button expand="block" text-center [routerLink]="['/chat']">
+			Chat Bot
+		</ion-button>
+		
+	</div>
+		
+
+	<div class="bottom-img-holder" padding-horizontal>
+		<img src="assets/imgs/login-bottom-img.svg" alt="">
+	</div>
+</ion-content>
+<footer></footer>

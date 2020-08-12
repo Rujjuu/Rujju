@@ -1,0 +1,99 @@
+<ion-header no-border>
+	<ion-toolbar>
+		<ion-buttons slot="start">
+			<ion-back-button defaultHref="home"></ion-back-button>
+		  </ion-buttons>
+		<ion-title text-center>Talk To Someone</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content>
+	<div class="header-container">
+		<img src="assets/imgs/header-nav.jpg" alt="">
+	</div>
+	
+	<div class="des-holder " padding-horizontal text-center>
+		<div class="des-card">
+			<ion-row>
+				<ion-col size="12" text-left>
+					<h4>How is mood right now?</h4>
+				</ion-col>
+
+			</ion-row>
+
+			<!-- <div class="the-form">
+				<ion-item>
+					<span slot="start">
+						<img src="assets/imgs/icn-avatar.svg" alt="">
+					</span>
+					<ion-input (click)="presentMoodActionSheet()" type="text" placeholder="Select Mood" text-left>
+					</ion-input>
+				</ion-item>
+			</div> -->
+
+			<div class="the-form" id="mood">
+				
+				<ion-radio-group>
+				  <ion-item lines="none">
+					<ion-label>Happy</ion-label>
+					<ion-radio value="happy" checked="true"></ion-radio>
+				  </ion-item>
+	  
+				  <ion-item lines="none">
+					<ion-label>Sad</ion-label>
+					<ion-radio value="sad" ></ion-radio>
+				  </ion-item>
+				  <ion-item lines="none">
+					<ion-label>Depress</ion-label>
+					<ion-radio value="depress"></ion-radio>
+				  </ion-item>
+				</ion-radio-group>
+			  </div>
+		</div>
+
+		<div class="des-card">
+			<ion-row>
+				<ion-col size="12" text-left>
+					<h4>Talk to male, female or anyone?</h4>
+				</ion-col>
+				
+			</ion-row>
+			<div class="the-form" id="gender">
+				
+				<ion-radio-group>
+				  <ion-item lines="none">
+					<ion-label>Male</ion-label>
+					<ion-radio value="male" checked="true"></ion-radio>
+				  </ion-item>
+	  
+				  <ion-item lines="none">
+					<ion-label>Female</ion-label>
+					<ion-radio value="female" ></ion-radio>
+				  </ion-item>
+				  <ion-item lines="none">
+					<ion-label>Anyone</ion-label>
+					<ion-radio value="anyone"></ion-radio>
+				  </ion-item>
+				</ion-radio-group>
+			  </div>
+			<!-- <div class="the-form">
+				<ion-item>
+					<span slot="start">
+						<img src="assets/imgs/icn-avatar.svg" alt="">
+					</span>
+					<ion-input (click)="presentGenderActionSheet()" type="text" placeholder="Select Gender" text-left>
+					</ion-input>
+				</ion-item>
+			</div> -->
+		</div>
+	</div>
+
+</ion-content>
+
+<ion-footer padding-horizontal no-border>
+	<!-- <ion-toolbar> -->
+	<ion-button (click)="goChat()" expand="block">
+		Start Chat
+	</ion-button>
+	<!-- </ion-toolbar> -->
+</ion-footer>

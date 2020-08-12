@@ -1,0 +1,67 @@
+<ion-header no-border>
+    
+	<ion-toolbar>
+
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="home"></ion-back-button>
+          </ion-buttons>
+		<ion-title text-center>Choose type of responder</ion-title>
+		
+	</ion-toolbar>
+
+</ion-header>
+
+<ion-content>
+    <div class="header-container">
+		<img src="assets/imgs/header-nav.jpg" alt="">
+	</div>
+  <div class="cat-menu">
+		<ion-grid>
+			<ion-row class="cat-row" text-center>
+				<ion-col  class="cat-col">
+          
+					<ion-button text-center fill="none" expand="block" [routerLink]="['/addfeeling']">
+					<ion-label>
+						<img src="assets/imgs/categoryicns/icn-accident.png" alt="">
+						<p>Accident</p>
+					</ion-label>
+					</ion-button>
+					
+				</ion-col>
+				<ion-col  class="cat-col">
+					<ion-button text-center fill="none" expand="block" [routerLink]="['/addfeeling']">
+						<ion-label>
+							<img src="assets/imgs/categoryicns/icn-bandage.png" alt="">
+							<p>Injury</p>
+						</ion-label>
+					</ion-button>
+				</ion-col>
+			</ion-row>
+			<ion-row class="cat-row" text-center>
+				<ion-col  class="cat-col">
+					<ion-button text-center fill="none" expand="block" [routerLink]="['/addfeeling']">
+						<ion-label>
+							<img src="assets/imgs/categoryicns/icn-health-book.png" alt="">
+							<p>Health Advice</p>
+						</ion-label>
+					</ion-button>
+				</ion-col>
+				<ion-col  class="cat-col">
+					<ion-button text-center fill="none" expand="block" [routerLink]="['/addfeeling']">
+						<ion-label>
+							<img src="assets/imgs/categoryicns/icn-beginner.png" alt="">
+							<p>Mental Health</p>
+						</ion-label>
+					</ion-button>
+				</ion-col>
+			</ion-row>
+
+		</ion-grid>
+    </div>
+
+    <div class="bottom-img-holder" padding-horizontal>
+		<img src="assets/imgs/login-bottom-img.svg" alt="">
+    </div>
+    
+</ion-content>
+<footer></footer>

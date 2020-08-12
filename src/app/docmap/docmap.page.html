@@ -1,0 +1,88 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title text-center>Doctors Map</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="header-container">
+    <img src="assets/imgs/header-navb.svg" alt="">
+  </div>
+  <div class="the-map">
+    <img src="assets/imgs/map.png" alt="">
+  </div>
+  <div class="doc-slider">
+    <ion-slides mode="ios" pager="false" scrollbar="false" [options]="sliderConfig">
+      <ion-slide>
+        <div class="doc-card">
+          <div text-right class="rating">
+            <p> <span> <img src="assets/imgs/starw.svg" alt=""></span> 4.2</p>
+          </div>
+          <div class="profile" text-center padding-horizontal>
+            <div class="thumb" text-center>
+              <img src="assets/imgs/docto.png" alt="">
+            </div>
+            <h5>Dr Lucia</h5>
+            <p>Pediatrician</p>
+          </div>
+          <ion-row class="btns-holder">
+            <ion-col size="6" text-center>
+              <img src="assets/imgs/phone-call.svg" alt="">
+            </ion-col>
+            <ion-col size="6" text-center>
+              <img src="assets/imgs/speech-bubble.svg" alt="">
+            </ion-col>
+          </ion-row>
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div class="doc-card">
+          <div text-right class="rating">
+            <p> <span> <img src="assets/imgs/starw.svg" alt=""></span> 4.2</p>
+          </div>
+          <div class="profile" text-center padding-horizontal>
+            <div class="thumb" text-center>
+              <img src="assets/imgs/docto.png" alt="">
+            </div>
+            <h5>Dr Lucia</h5>
+            <p>Pediatrician</p>
+          </div>
+          <ion-row class="btns-holder">
+            <ion-col size="6" text-center>
+              <img src="assets/imgs/phone-call.svg" alt="">
+            </ion-col>
+            <ion-col size="6" text-center>
+              <img src="assets/imgs/speech-bubble.svg" alt="">
+            </ion-col>
+          </ion-row>
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div class="doc-card">
+          <div text-right class="rating">
+            <p> <span> <img src="assets/imgs/starw.svg" alt=""></span> 4.2</p>
+          </div>
+          <div class="profile" text-center padding-horizontal>
+            <div class="thumb" text-center>
+              <img src="assets/imgs/docto.png" alt="">
+            </div>
+            <h5>Dr Lucia</h5>
+            <p>Pediatrician</p>
+          </div>
+          <ion-row class="btns-holder">
+            <ion-col size="6" text-center>
+              <img src="assets/imgs/phone-call.svg" alt="">
+            </ion-col>
+            <ion-col size="6" text-center>
+              <img src="assets/imgs/speech-bubble.svg" alt="">
+            </ion-col>
+          </ion-row>
+        </div>
+      </ion-slide>
+    </ion-slides>
+
+  </div>
+</ion-content>

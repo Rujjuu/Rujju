@@ -1,0 +1,44 @@
+<ion-header no-border>
+    
+	<ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="emergencylocation"></ion-back-button>
+          </ion-buttons>
+		<ion-title text-center>Contact Details?</ion-title>
+
+	</ion-toolbar>
+
+</ion-header>
+
+<ion-content>
+
+    <div class="header-container">
+		<img src="assets/imgs/header-nav.jpg" alt="">
+	</div>
+
+	<div class="front">
+		<div class="the-form" padding>
+
+			<ion-item class="input-item ">
+				<span slot="start">
+					<img src="assets/imgs/icn-phone.svg" alt="">
+				</span>
+				<ion-input [(ngModel)]="phone" type="text" placeholder="Add you phone number" text-left inputmode="phone"></ion-input>
+			</ion-item>
+		</div>
+	</div>
+
+	<div class="" padding>
+
+		<ion-button (click)="saveEmergency()" expand="block" text-center id="login" >
+			Submit
+		</ion-button>
+		
+	</div>
+		
+
+	<div class="bottom-img-holder" padding-horizontal>
+		<img src="assets/imgs/login-bottom-img.svg" alt="">
+	</div>
+</ion-content>
+<footer></footer>

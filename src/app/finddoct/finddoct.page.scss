@@ -1,0 +1,30 @@
+ion-toolbar{
+    --background: url(../../assets/imgs/header-nav.jpg);
+
+    ion-back-button{
+        --color:white;
+        font-size: 1.3rem !important;
+        padding-top: 20px !important;
+    }
+
+    ion-title{
+        color: white !important;
+        font-size: 1.4rem !important;
+        font-weight: 400 !important;
+        padding-top: 20px !important;
+    }
+
+    #end-btn
+    {
+        padding-top: 20px !important;
+        img{
+            height: 20px;
+            width: 20px;
+        }
+    }
+}
+
+.header-container
+{
+    margin-top: -40px !important;
+}

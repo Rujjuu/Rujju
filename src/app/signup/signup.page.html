@@ -1,0 +1,349 @@
+<ion-header no-border>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="home"></ion-back-button>
+        </ion-buttons>
+        <div class="custom-pagination">
+            <div *ngFor="let bullet of numberss; let i = index" class="pagination-bullet"
+                [ngClass]="{'pagination-bullet-active': activeIndex === i}"></div>
+        </div>
+    </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content class="forms-validations-content">
+    <form  class="validations-form" [formGroup]="signUpForm" (ngSubmit)="Signup(signUpForm.value)">
+
+        <div class="header-container">
+            <img src="assets/imgs/header-nav.jpg" alt="">
+        </div>
+
+        <div class="signup-slider">
+            <ion-slides #profileImages mode="ios" pager="false" scrollbar="false" (ionSlideDidChange)="onSlideChange()">
+                <ion-slide>
+                    <ion-grid>
+                        <ion-radio-group (ionChange)="getUserType($event)" [(ngModel)]="User.type" formControlName="type" value="{{User.type}}">
+                            <ion-row class="cat-row" text-center>
+                                <ion-col size="5.6">
+                                    <ion-item text-center lines="none">
+                                        <ion-radio value="consumer"></ion-radio>
+                                        <ion-label>
+                                            <img src="assets/imgs/categoryicns/icn-doctor.svg" alt="">
+                                            <p>General User</p>
+                                        </ion-label>
+                                    </ion-item>
+                                </ion-col>
+                                <ion-col size="5.6">
+                                    <ion-item text-center lines="none">
+                                        <ion-label>
+                                            <img src="assets/imgs/categoryicns/icn-hospital.svg" alt="">
+                                            <p>Volunteer</p>
+                                        </ion-label>
+                                        <ion-radio value="volunteer"></ion-radio>
+                                    </ion-item>
+                                </ion-col>
+
+                                <ion-col size="5.6">
+                                    <ion-item text-center lines="none">
+                                        <ion-label>
+                                            <img src="assets/imgs/categoryicns/icn-clinic.svg" alt="">
+                                            <p>General Doctors</p>
+                                        </ion-label>
+                                        <ion-radio value="generaldoctor"></ion-radio>
+                                    </ion-item>
+                                </ion-col>
+                                <ion-col size="5.6">
+                                    <ion-item text-center lines="none">
+                                        <ion-label>
+                                            <img src="assets/imgs/categoryicns/icn-lab.svg" alt="">
+                                            <p>Therapists</p>
+                                        </ion-label>
+                                        <ion-radio value="therapist"></ion-radio>
+                                    </ion-item>
+                                </ion-col>
+                            </ion-row>
+                        </ion-radio-group>
+                        <div class="error-container">
+                            <ng-container *ngFor="let validation of validations.type">
+                                <div class="error-message"
+                                    *ngIf="signUpForm.get('type').hasError(validation.type) && (signUpForm.get('type').dirty || signUpForm.get('type').touched)">
+                                    <ion-icon name="information-circle-outline"></ion-icon>
+                                    <span>{{ validation.message }}</span>
+                                </div>
+                            </ng-container>
+                        </div>
+                    </ion-grid>
+                </ion-slide>
+                <ion-slide padding>
+
+                    <div class="the-form">
+
+                        <div class="section-title">
+                            <h2>Account</h2>
+                        </div>
+                        <ion-item>
+                            <span slot="start">
+                                <img src="assets/imgs/icn-avatar.svg" alt="">
+                            </span>
+                            <ion-input type="text" [(ngModel)]="User.phone" formControlName="phone"
+                                placeholder="Phone Number" text-left></ion-input>
+                        </ion-item>
+                        <div class="error-container">
+                            <ng-container *ngFor="let validation of validations.phone">
+                                <div class="error-message"
+                                    *ngIf="signUpForm.get('phone').hasError(validation.type) && (signUpForm.get('phone').dirty || signUpForm.get('phone').touched)">
+                                    <ion-icon name="information-circle-outline"></ion-icon>
+                                    <span>{{ validation.message }}</span>
+                                </div>
+                            </ng-container>
+                        </div>
+                        <ion-item>
+                            <span slot="start">
+                                <img src="assets/imgs/icn-avatar.svg" alt="">
+                            </span>
+                            <ion-input type="email" [(ngModel)]="User.email" formControlName="email" placeholder="EMAIL"
+                                text-left></ion-input>
+                        </ion-item>
+                        <div class="error-container">
+                            <ng-container *ngFor="let validation of validations.email">
+                                <div class="error-message"
+                                    *ngIf="signUpForm.get('email').hasError(validation.type) && (signUpForm.get('email').dirty || signUpForm.get('email').touched)">
+                                    <ion-icon name="information-circle-outline"></ion-icon>
+                                    <span>{{ validation.message }}</span>
+                                </div>
+                            </ng-container>
+                        </div>
+
+                        <div formGroupName="matching_passwords">
+                            
+                            <ion-item>
+                                <span slot="start">
+                                    <img src="assets/imgs/icn-padlock.svg" alt="">
+                                </span>
+                                <ion-input type="password" [(ngModel)]="User.password" formControlName="password"
+                                    placeholder="PASSWORD"></ion-input>
+                            </ion-item>
+                            <div class="error-container">
+                                <ng-container *ngFor="let validation of validations.password">
+                                    <div class="error-message"
+                                    *ngIf="signUpForm.get('matching_passwords').get('password').hasError(validation.type) && (signUpForm.get('matching_passwords').get('password').dirty || signUpForm.get('matching_passwords').get('password').touched)">
+                                    
+                                        
+                                        <ion-icon name="information-circle-outline"></ion-icon>
+                                        <span>{{ validation.message }}</span>
+                                    </div>
+                                </ng-container>
+                            </div>
+                            <ion-item>
+                                <span slot="start">
+                                    <img src="assets/imgs/icn-padlock.svg" alt="">
+                                </span>
+                                <ion-input type="password" [(ngModel)]="User.confirmPassword" formControlName="confirmPassword"
+                                    placeholder="PASSWORD AGAIN"></ion-input>
+                            </ion-item>
+                            <div class="error-container">
+                                <ng-container *ngFor="let validation of validations.confirmPassword">
+                                    <div class="error-message" *ngIf="signUpForm.get('matching_passwords').get('confirmPassword').hasError(validation.type) && (signUpForm.get('matching_passwords').get('confirmPassword').dirty || signUpForm.get('matching_passwords').get('confirmPassword').touched)">
+                                        
+                                        <ion-icon name="information-circle-outline"></ion-icon>
+                                        <span>{{ validation.message }}</span>
+                                    </div>
+                                </ng-container>
+                            </div>
+
+                        </div>
+                        
+                        <div class="error-container">
+                            <ng-container *ngFor="let validation of validations.matching_passwords">
+                              <div class="error-message" *ngIf="signUpForm.get('matching_passwords').hasError(validation.type) && (signUpForm.get('matching_passwords').get('confirmPassword').dirty || signUpForm.get('matching_passwords').get('confirmPassword').touched)">
+                                <ion-icon name="information-circle-outline"></ion-icon>
+                                <span>{{ validation.message }}</span> </div>
+                            </ng-container>
+                          </div>
+
+                    </div>
+                </ion-slide>
+                <ion-slide padding>
+
+                    <div class="the-form">
+                        <div class="section-title">
+                            <h2>Personel Info</h2>
+                        </div>
+                        <ion-item>
+                            <span slot="start">
+                                <img src="assets/imgs/icn-avatar.svg" alt="">
+                            </span>
+                            <ion-input type="text" [(ngModel)]="User.name" formControlName="name"
+                                placeholder="ENTER NAME" text-left></ion-input>
+                        </ion-item>
+                        <div class="error-container">
+                            <ng-container *ngFor="let validation of validations.name">
+                                <div class="error-message"
+                                    *ngIf="signUpForm.get('name').hasError(validation.type) && (signUpForm.get('name').dirty || signUpForm.get('name').touched)">
+                                    <ion-icon name="information-circle-outline"></ion-icon>
+                                    <span>{{ validation.message }}</span>
+                                </div>
+                            </ng-container>
+                        </div>
+
+                        <ion-item>
+                            <span slot="start">
+                                <img src="assets/imgs/icn-avatar.svg" alt="">
+                            </span>
+                            <ion-datetime [(ngModel)]="User.dob" formControlName="dob" displayFormat="YYYY-MM-DD"
+                                placeholder="SELECT DOB" text-left></ion-datetime>
+                        </ion-item>
+                        <div class="error-container">
+                            <ng-container *ngFor="let validation of validations.dob">
+                                <div class="error-message"
+                                    *ngIf="signUpForm.get('dob').hasError(validation.type) && (signUpForm.get('dob').dirty || signUpForm.get('dob').touched)">
+                                    <ion-icon name="information-circle-outline"></ion-icon>
+                                    <span>{{ validation.message }}</span>
+                                </div>
+                            </ng-container>
+                        </div>
+
+                    </div>
+                </ion-slide>
+
+                <ion-slide *ngIf="User.type=='consumer' || User.type=='volunteer'" padding>
+                    <div class="the-form" id="gender">
+                        <div class="section-title">
+                            <h2>Gender</h2>
+                        </div>
+                        <ion-radio-group [(ngModel)]="User.gender" formControlName="gender">
+                            <ion-item lines="none">
+                                <ion-label>FEMALE</ion-label>
+                                <ion-radio value="female"></ion-radio>
+                            </ion-item>
+
+                            <ion-item lines="none">
+                                <ion-label>MALE</ion-label>
+                                <ion-radio value="male" checked="true"></ion-radio>
+                            </ion-item>
+                            <ion-item lines="none">
+                                <ion-label>OTHER</ion-label>
+                                <ion-radio value="other"></ion-radio>
+                            </ion-item>
+                        </ion-radio-group>
+                    </div>
+                </ion-slide>
+
+                <ion-slide *ngIf="User.type !='consumer' && User.type !='volunteer'" padding>
+                    <div class="the-form" id="gender">
+                        <div class="section-title">
+                            <h2>Prefessional Info</h2>
+                        </div>
+                        
+                        <ion-item>
+                            <span slot="start">
+                                <img src="assets/imgs/icn-avatar.svg" alt="">
+                            </span>
+                            <ion-input type="text" [(ngModel)]="occupation" formControlName="occupation"
+                                placeholder="ENTER OCCUPATION" text-left></ion-input>
+                        </ion-item>
+                        <div class="error-container">
+                            <ng-container *ngFor="let validation of validations.occupation">
+                                <div class="error-message"
+                                    *ngIf="signUpForm.get('occupation').hasError(validation.type) && (signUpForm.get('occupation').dirty || signUpForm.get('occupation').touched)">
+                                    <ion-icon name="information-circle-outline"></ion-icon>
+                                    <span>{{ validation.message }}</span>
+                                </div>
+                            </ng-container>
+                        </div>
+                        
+                        <ion-item>
+                            <span slot="start">
+                                <img src="assets/imgs/icn-avatar.svg" alt="">
+                            </span>
+                            <ion-input type="text" [(ngModel)]="PDMC" formControlName="PDMC"
+                                placeholder="ENTER PDMC/REGISTERATION #" text-left></ion-input>
+                        </ion-item>
+                        <div class="error-container">
+                            <ng-container *ngFor="let validation of validations.PDMC">
+                                <div class="error-message"
+                                    *ngIf="signUpForm.get('PDMC').hasError(validation.type) && (signUpForm.get('PDMC').dirty || signUpForm.get('PDMC').touched)">
+                                    <ion-icon name="information-circle-outline"></ion-icon>
+                                    <span>{{ validation.message }}</span>
+                                </div>
+                            </ng-container>
+                        </div>
+
+                        <ion-item>
+                            <span slot="start">
+                                <img src="assets/imgs/icn-avatar.svg" alt="">
+                            </span>
+                            <ion-input type="text" [(ngModel)]="qualification" formControlName="qualification"
+                                placeholder="ENTER QUALIFICATION" text-left></ion-input>
+                        </ion-item>
+                        <div class="error-container">
+                            <ng-container *ngFor="let validation of validations.qualification">
+                                <div class="error-message"
+                                    *ngIf="signUpForm.get('qualification').hasError(validation.type) && (signUpForm.get('qualification').dirty || signUpForm.get('qualification').touched)">
+                                    <ion-icon name="information-circle-outline"></ion-icon>
+                                    <span>{{ validation.message }}</span>
+                                </div>
+                            </ng-container>
+                        </div>
+
+                    </div>
+                </ion-slide>
+
+                <ion-slide padding>
+                    <div class="the-form" id="weight">
+                        <div class="section-title">
+                            <h2>Language</h2>
+                        </div>
+                        <ion-item (click)="showLanguagePicker()">
+                            <span slot="start">
+                                <img src="assets/imgs/icn-avatar.svg" alt="">
+                            </span>
+                            <ion-label *ngIf="User.language ==''">SELECT LANGUAGE</ion-label>
+                            <ion-label *ngIf="User.language">{{User.language}}</ion-label>
+                        </ion-item>
+
+                    </div>
+                </ion-slide>
+                <ion-slide padding>
+                    <div class="the-form" id="height">
+                        <div class="section-title">
+                            <h2>Location</h2>
+                        </div>
+                        <ion-item (click)="showLocationPicker()">
+                            <span slot="start">
+                                <img src="assets/imgs/locpin.svg" alt="">
+                            </span>
+                            <ion-label *ngIf="User.location==''">SELECT LOCATION</ion-label>
+                            <ion-label *ngIf="User.location">{{User.location}}</ion-label>
+                        </ion-item>
+                    </div>
+                </ion-slide>
+
+                <!-- <ion-slide padding>
+                    <div class="the-form" id="height">
+                        <div class="section-title">
+                            <h2>Profile Picture</h2>
+                        </div>
+
+                    </div>
+                </ion-slide> -->
+            </ion-slides>
+        </div>
+        
+        <ion-button *ngIf="activeIndex==5" class="submit-btn" type="submit" shape="round" expand="block" [disabled]="!signUpForm.valid">
+            <span *ngIf="!isProcess">SIGNUP</span>
+            <ion-spinner *ngIf="isProcess"></ion-spinner>
+            <span *ngIf="isProcess"> Processing </span>
+        </ion-button>
+    </form>
+
+</ion-content>
+<ion-footer padding-horizontal no-border *ngIf="activeIndex!=5">
+    <ion-toolbar>
+        <ion-button  (click)="checkIsend()" expand="block">
+            NEXT STEP
+        </ion-button>
+        
+    </ion-toolbar>
+</ion-footer>

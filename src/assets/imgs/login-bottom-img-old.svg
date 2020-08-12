@@ -1,0 +1,308 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="626" height="260.69" viewBox="0 0 626 260.69">
+  <defs>
+    <filter id="Rectangle_5" x="278" y="30.69" width="97" height="82" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#b2daff"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_13" data-name="Group 13" transform="translate(-49 -1073.31)">
+    <g id="PRÉDIO_01" transform="translate(584 1114)">
+      <ellipse id="Oval" cx="37" cy="38" rx="37" ry="38" transform="translate(8)" fill="#b2daff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3"/>
+      <g id="Rectangle" transform="translate(5 36)" fill="#d8ebff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+        <rect width="82" height="184" stroke="none"/>
+        <rect x="1.5" y="1.5" width="79" height="181" fill="none"/>
+      </g>
+      <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(0 28)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+        <rect width="91" height="12" rx="6" stroke="none"/>
+        <rect x="1.5" y="1.5" width="88" height="9" rx="4.5" fill="none"/>
+      </g>
+      <g id="Rectangle_2_Copy" data-name="Rectangle 2 Copy" transform="translate(0 118)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+        <rect width="91" height="12" rx="6" stroke="none"/>
+        <rect x="1.5" y="1.5" width="88" height="9" rx="4.5" fill="none"/>
+      </g>
+      <g id="WINDOW" transform="translate(35 55)">
+        <g id="Rectangle_3" data-name="Rectangle 3" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+          <rect width="10.421" height="18.667" stroke="none"/>
+          <rect x="1" y="1" width="8.421" height="16.667" fill="none"/>
+        </g>
+        <g id="Rectangle_3_Copy" data-name="Rectangle 3 Copy" transform="translate(11.579)" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+          <rect width="10.421" height="18.667" stroke="none"/>
+          <rect x="1" y="1" width="8.421" height="16.667" fill="none"/>
+        </g>
+        <g id="Rectangle_3_Copy_3" data-name="Rectangle 3 Copy 3" transform="translate(0 23.333)" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+          <rect width="10.421" height="18.667" stroke="none"/>
+          <rect x="1" y="1" width="8.421" height="16.667" fill="none"/>
+        </g>
+        <g id="Rectangle_3_Copy_2" data-name="Rectangle 3 Copy 2" transform="translate(11.579 23.333)" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+          <rect width="10.421" height="18.667" stroke="none"/>
+          <rect x="1" y="1" width="8.421" height="16.667" fill="none"/>
+        </g>
+      </g>
+      <g id="WINDOW_2" data-name="WINDOW 2" transform="translate(35 146)">
+        <g id="Rectangle_3-2" data-name="Rectangle 3" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+          <rect width="10.421" height="18.667" stroke="none"/>
+          <rect x="1" y="1" width="8.421" height="16.667" fill="none"/>
+        </g>
+        <g id="Rectangle_3_Copy-2" data-name="Rectangle 3 Copy" transform="translate(11.579)" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+          <rect width="10.421" height="18.667" stroke="none"/>
+          <rect x="1" y="1" width="8.421" height="16.667" fill="none"/>
+        </g>
+        <g id="Rectangle_3_Copy_3-2" data-name="Rectangle 3 Copy 3" transform="translate(0 23.333)" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+          <rect width="10.421" height="18.667" stroke="none"/>
+          <rect x="1" y="1" width="8.421" height="16.667" fill="none"/>
+        </g>
+        <g id="Rectangle_3_Copy_2-2" data-name="Rectangle 3 Copy 2" transform="translate(11.579 23.333)" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+          <rect width="10.421" height="18.667" stroke="none"/>
+          <rect x="1" y="1" width="8.421" height="16.667" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="ÁRVORE_2" data-name="ÁRVORE 2" transform="translate(121 1241)">
+      <ellipse id="Oval_2" data-name="Oval 2" cx="34" cy="35" rx="34" ry="35" transform="translate(0)" fill="#d8ebff" stroke="#359af6" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Path_2" data-name="Path 2" d="M20,0S19.86,18.475,0,34" transform="translate(25 35)" fill="none" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Path_3" data-name="Path 3" d="M1.673.667V32" transform="translate(31 61)" fill="none" stroke="#359af6" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Path_4" data-name="Path 4" d="M0,7H13V0" transform="translate(35 71)" fill="none" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+    <g id="CLOUD_Copy" data-name="CLOUD Copy" transform="translate(120 1075)">
+      <ellipse id="Oval_9" data-name="Oval 9" cx="2.482" cy="2.559" rx="2.482" ry="2.559" transform="translate(0 18.765)" fill="#c0ddff"/>
+      <rect id="Rectangle_21_Copy" data-name="Rectangle 21 Copy" width="21.512" height="4.265" rx="2.132" transform="translate(38.06 18.765)" fill="#bfdcff"/>
+      <rect id="Rectangle_21_Copy_3" data-name="Rectangle 21 Copy 3" width="21.512" height="4.265" rx="2.132" transform="translate(9.929 18.765)" fill="#bfdcff"/>
+      <rect id="Rectangle_21_Copy_2" data-name="Rectangle 21 Copy 2" width="21.512" height="4.265" rx="2.132" transform="translate(117.488 23.882)" fill="#bfdcff"/>
+      <path id="Path_16" data-name="Path 16" d="M.079,20.543S-1.146,1.624,16.567.115L35.837,16.271a1,1,0,0,0,1.351-.06L44.374,9a13.087,13.087,0,0,1,5.6-.731c2.751.28,6.129,1.534,7.768,3.221,4.291,4.419,6.367,14.43,6.158,15.2" transform="translate(56.561)" fill="none" stroke="#bfdcff" stroke-miterlimit="10" stroke-width="3.5"/>
+    </g>
+    <g id="CLOUD_Copy_2" data-name="CLOUD Copy 2" transform="translate(458 1090)">
+      <ellipse id="Oval_9-2" data-name="Oval 9" cx="2.482" cy="2.559" rx="2.482" ry="2.559" transform="translate(0 18.765)" fill="#c0ddff"/>
+      <rect id="Rectangle_21_Copy-2" data-name="Rectangle 21 Copy" width="21.512" height="4.265" rx="2.132" transform="translate(38.06 18.765)" fill="#bfdcff"/>
+      <rect id="Rectangle_21_Copy_3-2" data-name="Rectangle 21 Copy 3" width="21.512" height="4.265" rx="2.132" transform="translate(9.929 18.765)" fill="#bfdcff"/>
+      <rect id="Rectangle_21_Copy_2-2" data-name="Rectangle 21 Copy 2" width="21.512" height="4.265" rx="2.132" transform="translate(117.488 23.882)" fill="#bfdcff"/>
+      <path id="Path_16-2" data-name="Path 16" d="M.079,20.543S-1.146,1.624,16.567.115L35.837,16.271a1,1,0,0,0,1.351-.06L44.374,9a13.087,13.087,0,0,1,5.6-.731c2.751.28,6.129,1.534,7.768,3.221,4.291,4.419,6.367,14.43,6.158,15.2" transform="translate(56.561)" fill="none" stroke="#bfdcff" stroke-miterlimit="10" stroke-width="3.5"/>
+    </g>
+    <g id="Group_3" data-name="Group 3">
+      <g id="PRÉDIO_01_Copy" data-name="PRÉDIO_01 Copy" transform="translate(237 1160)">
+        <ellipse id="Oval-2" data-name="Oval" cx="29.5" cy="30" rx="29.5" ry="30" transform="translate(6)" fill="#b2daff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3"/>
+        <g id="Rectangle-2" data-name="Rectangle" transform="translate(4 28)" fill="#d8ebff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+          <rect width="65" height="146" stroke="none"/>
+          <rect x="1.5" y="1.5" width="62" height="143" fill="none"/>
+        </g>
+        <g id="Rectangle_2-2" data-name="Rectangle 2" transform="translate(0 22)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+          <rect width="72" height="9" rx="4.5" stroke="none"/>
+          <rect x="1.5" y="1.5" width="69" height="6" rx="3" fill="none"/>
+        </g>
+        <g id="Rectangle_2_Copy-2" data-name="Rectangle 2 Copy" transform="translate(0 93)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+          <rect width="72" height="9" rx="4.5" stroke="none"/>
+          <rect x="1.5" y="1.5" width="69" height="6" rx="3" fill="none"/>
+        </g>
+        <g id="WINDOW-2" data-name="WINDOW" transform="translate(28 44)">
+          <g id="Rectangle_3-3" data-name="Rectangle 3" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+            <rect width="8.053" height="14.667" stroke="none"/>
+            <rect x="1" y="1" width="6.053" height="12.667" fill="none"/>
+          </g>
+          <g id="Rectangle_3_Copy-3" data-name="Rectangle 3 Copy" transform="translate(8.947)" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+            <rect width="8.053" height="14.667" stroke="none"/>
+            <rect x="1" y="1" width="6.053" height="12.667" fill="none"/>
+          </g>
+          <g id="Rectangle_3_Copy_3-3" data-name="Rectangle 3 Copy 3" transform="translate(0 18.333)" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+            <rect width="8.053" height="14.667" stroke="none"/>
+            <rect x="1" y="1" width="6.053" height="12.667" fill="none"/>
+          </g>
+          <g id="Rectangle_3_Copy_2-3" data-name="Rectangle 3 Copy 2" transform="translate(8.947 18.333)" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+            <rect width="8.053" height="14.667" stroke="none"/>
+            <rect x="1" y="1" width="6.053" height="12.667" fill="none"/>
+          </g>
+        </g>
+        <g id="WINDOW_2-2" data-name="WINDOW 2" transform="translate(28 115)">
+          <g id="Rectangle_3-4" data-name="Rectangle 3" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+            <rect width="8.053" height="14.667" stroke="none"/>
+            <rect x="1" y="1" width="6.053" height="12.667" fill="none"/>
+          </g>
+          <g id="Rectangle_3_Copy-4" data-name="Rectangle 3 Copy" transform="translate(8.947)" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+            <rect width="8.053" height="14.667" stroke="none"/>
+            <rect x="1" y="1" width="6.053" height="12.667" fill="none"/>
+          </g>
+          <g id="Rectangle_3_Copy_3-4" data-name="Rectangle 3 Copy 3" transform="translate(0 18.333)" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+            <rect width="8.053" height="14.667" stroke="none"/>
+            <rect x="1" y="1" width="6.053" height="12.667" fill="none"/>
+          </g>
+          <g id="Rectangle_3_Copy_2-4" data-name="Rectangle 3 Copy 2" transform="translate(8.947 18.333)" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+            <rect width="8.053" height="14.667" stroke="none"/>
+            <rect x="1" y="1" width="6.053" height="12.667" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="PRÉDIO_01_Copy_2" data-name="PRÉDIO_01 Copy 2" transform="translate(442 1160)">
+        <ellipse id="Oval-3" data-name="Oval" cx="29.5" cy="30" rx="29.5" ry="30" transform="translate(6)" fill="#b2daff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3"/>
+        <g id="Rectangle-3" data-name="Rectangle" transform="translate(4 28)" fill="#d8ebff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+          <rect width="65" height="146" stroke="none"/>
+          <rect x="1.5" y="1.5" width="62" height="143" fill="none"/>
+        </g>
+        <g id="Rectangle_2-3" data-name="Rectangle 2" transform="translate(0 22)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+          <rect width="72" height="9" rx="4.5" stroke="none"/>
+          <rect x="1.5" y="1.5" width="69" height="6" rx="3" fill="none"/>
+        </g>
+        <g id="Rectangle_2_Copy-3" data-name="Rectangle 2 Copy" transform="translate(0 93)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+          <rect width="72" height="9" rx="4.5" stroke="none"/>
+          <rect x="1.5" y="1.5" width="69" height="6" rx="3" fill="none"/>
+        </g>
+        <g id="WINDOW-3" data-name="WINDOW" transform="translate(28 44)">
+          <g id="Rectangle_3-5" data-name="Rectangle 3" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+            <rect width="8.053" height="14.667" stroke="none"/>
+            <rect x="1" y="1" width="6.053" height="12.667" fill="none"/>
+          </g>
+          <g id="Rectangle_3_Copy-5" data-name="Rectangle 3 Copy" transform="translate(8.947)" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+            <rect width="8.053" height="14.667" stroke="none"/>
+            <rect x="1" y="1" width="6.053" height="12.667" fill="none"/>
+          </g>
+          <g id="Rectangle_3_Copy_3-5" data-name="Rectangle 3 Copy 3" transform="translate(0 18.333)" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+            <rect width="8.053" height="14.667" stroke="none"/>
+            <rect x="1" y="1" width="6.053" height="12.667" fill="none"/>
+          </g>
+          <g id="Rectangle_3_Copy_2-5" data-name="Rectangle 3 Copy 2" transform="translate(8.947 18.333)" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+            <rect width="8.053" height="14.667" stroke="none"/>
+            <rect x="1" y="1" width="6.053" height="12.667" fill="none"/>
+          </g>
+        </g>
+        <g id="WINDOW_2-3" data-name="WINDOW 2" transform="translate(28 115)">
+          <g id="Rectangle_3-6" data-name="Rectangle 3" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+            <rect width="8.053" height="14.667" stroke="none"/>
+            <rect x="1" y="1" width="6.053" height="12.667" fill="none"/>
+          </g>
+          <g id="Rectangle_3_Copy-6" data-name="Rectangle 3 Copy" transform="translate(8.947)" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+            <rect width="8.053" height="14.667" stroke="none"/>
+            <rect x="1" y="1" width="6.053" height="12.667" fill="none"/>
+          </g>
+          <g id="Rectangle_3_Copy_3-6" data-name="Rectangle 3 Copy 3" transform="translate(0 18.333)" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+            <rect width="8.053" height="14.667" stroke="none"/>
+            <rect x="1" y="1" width="6.053" height="12.667" fill="none"/>
+          </g>
+          <g id="Rectangle_3_Copy_2-6" data-name="Rectangle 3 Copy 2" transform="translate(8.947 18.333)" fill="#fff" stroke="#2a94f6" stroke-miterlimit="10" stroke-width="2">
+            <rect width="8.053" height="14.667" stroke="none"/>
+            <rect x="1" y="1" width="6.053" height="12.667" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="HOSPITAL" transform="translate(293 1104)">
+        <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(9 33)" fill="#d8ebff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+          <rect width="147" height="197" stroke="none"/>
+          <rect x="1.5" y="1.5" width="144" height="194" fill="none"/>
+        </g>
+        <g id="WINDOWS" transform="translate(44 86)">
+          <g id="Rectangle_7" data-name="Rectangle 7" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+            <rect width="11.52" height="11.52" stroke="none"/>
+            <rect x="1.5" y="1.5" width="8.52" height="8.52" fill="none"/>
+          </g>
+          <g id="Rectangle_7_Copy" data-name="Rectangle 7 Copy" transform="translate(12.48)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+            <rect width="11.52" height="11.52" stroke="none"/>
+            <rect x="1.5" y="1.5" width="8.52" height="8.52" fill="none"/>
+          </g>
+          <g id="Rectangle_7_Copy_3" data-name="Rectangle 7 Copy 3" transform="translate(0 12.48)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+            <rect width="11.52" height="11.52" stroke="none"/>
+            <rect x="1.5" y="1.5" width="8.52" height="8.52" fill="none"/>
+          </g>
+          <g id="Rectangle_7_Copy_2" data-name="Rectangle 7 Copy 2" transform="translate(12.48 12.48)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+            <rect width="11.52" height="11.52" stroke="none"/>
+            <rect x="1.5" y="1.5" width="8.52" height="8.52" fill="none"/>
+          </g>
+        </g>
+        <g id="WINDOWS_Copy" data-name="WINDOWS Copy" transform="translate(98 86)">
+          <g id="Rectangle_7-2" data-name="Rectangle 7" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+            <rect width="11.52" height="11.52" stroke="none"/>
+            <rect x="1.5" y="1.5" width="8.52" height="8.52" fill="none"/>
+          </g>
+          <g id="Rectangle_7_Copy-2" data-name="Rectangle 7 Copy" transform="translate(12.48)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+            <rect width="11.52" height="11.52" stroke="none"/>
+            <rect x="1.5" y="1.5" width="8.52" height="8.52" fill="none"/>
+          </g>
+          <g id="Rectangle_7_Copy_3-2" data-name="Rectangle 7 Copy 3" transform="translate(0 12.48)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+            <rect width="11.52" height="11.52" stroke="none"/>
+            <rect x="1.5" y="1.5" width="8.52" height="8.52" fill="none"/>
+          </g>
+          <g id="Rectangle_7_Copy_2-2" data-name="Rectangle 7 Copy 2" transform="translate(12.48 12.48)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+            <rect width="11.52" height="11.52" stroke="none"/>
+            <rect x="1.5" y="1.5" width="8.52" height="8.52" fill="none"/>
+          </g>
+        </g>
+        <g id="WINDOWS_Copy_3" data-name="WINDOWS Copy 3" transform="translate(44 138)">
+          <g id="Rectangle_7-3" data-name="Rectangle 7" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+            <rect width="11.52" height="11.52" stroke="none"/>
+            <rect x="1.5" y="1.5" width="8.52" height="8.52" fill="none"/>
+          </g>
+          <g id="Rectangle_7_Copy-3" data-name="Rectangle 7 Copy" transform="translate(12.48)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+            <rect width="11.52" height="11.52" stroke="none"/>
+            <rect x="1.5" y="1.5" width="8.52" height="8.52" fill="none"/>
+          </g>
+          <g id="Rectangle_7_Copy_3-3" data-name="Rectangle 7 Copy 3" transform="translate(0 12.48)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+            <rect width="11.52" height="11.52" stroke="none"/>
+            <rect x="1.5" y="1.5" width="8.52" height="8.52" fill="none"/>
+          </g>
+          <g id="Rectangle_7_Copy_2-3" data-name="Rectangle 7 Copy 2" transform="translate(12.48 12.48)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+            <rect width="11.52" height="11.52" stroke="none"/>
+            <rect x="1.5" y="1.5" width="8.52" height="8.52" fill="none"/>
+          </g>
+        </g>
+        <g id="WINDOWS_Copy_2" data-name="WINDOWS Copy 2" transform="translate(98 138)">
+          <g id="Rectangle_7-4" data-name="Rectangle 7" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+            <rect width="11.52" height="11.52" stroke="none"/>
+            <rect x="1.5" y="1.5" width="8.52" height="8.52" fill="none"/>
+          </g>
+          <g id="Rectangle_7_Copy-4" data-name="Rectangle 7 Copy" transform="translate(12.48)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+            <rect width="11.52" height="11.52" stroke="none"/>
+            <rect x="1.5" y="1.5" width="8.52" height="8.52" fill="none"/>
+          </g>
+          <g id="Rectangle_7_Copy_3-4" data-name="Rectangle 7 Copy 3" transform="translate(0 12.48)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+            <rect width="11.52" height="11.52" stroke="none"/>
+            <rect x="1.5" y="1.5" width="8.52" height="8.52" fill="none"/>
+          </g>
+          <g id="Rectangle_7_Copy_2-4" data-name="Rectangle 7 Copy 2" transform="translate(12.48 12.48)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+            <rect width="11.52" height="11.52" stroke="none"/>
+            <rect x="1.5" y="1.5" width="8.52" height="8.52" fill="none"/>
+          </g>
+        </g>
+        <g id="Rectangle_2-4" data-name="Rectangle 2" transform="translate(0 33)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+          <rect width="165" height="10" rx="5" stroke="none"/>
+          <rect x="1.5" y="1.5" width="162" height="7" rx="3.5" fill="none"/>
+        </g>
+        <g id="Rectangle_2_Copy_2" data-name="Rectangle 2 Copy 2" transform="translate(0 114)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+          <rect width="165" height="10" rx="5" stroke="none"/>
+          <rect x="1.5" y="1.5" width="162" height="7" rx="3.5" fill="none"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -244, -30.69)" filter="url(#Rectangle_5)">
+          <g id="Rectangle_5-2" data-name="Rectangle 5" transform="translate(278 30.69)" fill="#d8ebff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+            <rect width="97" height="76" rx="7" stroke="none"/>
+            <rect x="1.5" y="1.5" width="94" height="73" rx="5.5" fill="none"/>
+          </g>
+        </g>
+        <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(44 9)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3">
+          <rect width="79" height="59" stroke="none"/>
+          <rect x="1.5" y="1.5" width="76" height="56" fill="none"/>
+        </g>
+        <path id="Path_5" data-name="Path 5" d="M0,10.068H10.315V0h9.7V10.068H31v10.4H20.011V31h-9.7V20.471H0Z" transform="translate(67 23)" fill="#83bfff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="3"/>
+        <circle id="Oval_3" data-name="Oval 3" cx="2.5" cy="2.5" r="2.5" transform="translate(110 17)" fill="#d8ebff"/>
+        <circle id="Oval_3_Copy" data-name="Oval 3 Copy" cx="2.5" cy="2.5" r="2.5" transform="translate(110 56)" fill="#d8ebff"/>
+        <circle id="Oval_3_Copy_2" data-name="Oval 3 Copy 2" cx="2.5" cy="2.5" r="2.5" transform="translate(51 56)" fill="#d8ebff"/>
+        <circle id="Oval_3_Copy_3" data-name="Oval 3 Copy 3" cx="2.5" cy="2.5" r="2.5" transform="translate(51 17)" fill="#d8ebff"/>
+        <path id="Rectangle_8" data-name="Rectangle 8" d="M19.5,0h0A19.5,19.5,0,0,1,39,19.5V39a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V19.5A19.5,19.5,0,0,1,19.5,0Z" transform="translate(63 188)" fill="#b4d6ff"/>
+      </g>
+      <g id="DOG" transform="translate(341 1275)">
+        <path id="Path_15" data-name="Path 15" d="M5.819,16.57,18.506.987s6.607-3.1,6.809,3.545,0,14.866,0,14.866,6.734,9.992-13.446,11.475S5.819,16.57,5.819,16.57Z" transform="translate(41 17)" fill="#ddedff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_13" data-name="Path 13" d="M8.831,32.166S.275,37.931.008,25.572,8.831,2.76,8.831,2.76s8.646-6.587,9.144,2.547S8.831,32.166,8.831,32.166Z" transform="translate(3 0)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_13_Copy" data-name="Path 13 Copy" d="M-8.831,32.166s8.556,5.765,8.824-6.594S-8.831,2.76-8.831,2.76s-8.646-6.587-9.144,2.547S-8.831,32.166-8.831,32.166Z" transform="translate(50 0)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="2"/>
+        <g id="Rectangle_20" data-name="Rectangle 20" transform="translate(0 34)" fill="#fff" stroke-miterlimit="10">
+          <path d="M 54 24 L 1 24 L 1 14.622389793396 C 1 13.07141971588135 1.402750015258789 11.45195960998535 2.19707989692688 9.808979988098145 C 2.955529928207397 8.240189552307129 4.057449817657471 6.709959983825684 5.383699893951416 5.383699893951416 C 6.709959983825684 4.057449817657471 8.240189552307129 2.955529928207397 9.808979988098145 2.19707989692688 C 11.45195960998535 1.402750015258789 13.07141971588135 1 14.622389793396 1 L 40.37760925292969 1 C 41.92858123779297 1 43.54803848266602 1.402750015258789 45.19102096557617 2.19707989692688 C 46.75981140136719 2.955529928207397 48.2900390625 4.057449817657471 49.61629867553711 5.383699893951416 C 50.94255065917969 6.709959983825684 52.04447174072266 8.240189552307129 52.80292129516602 9.808979988098145 C 53.59725189208984 11.45195960998535 54 13.07141971588135 54 14.622389793396 L 54 24 Z" stroke="none"/>
+          <path d="M 53 23 L 53 14.62238788604736 C 53 11.84171772003174 51.47072982788086 8.652340888977051 48.90918731689453 6.090811729431152 C 46.34766006469727 3.529270648956299 43.15828323364258 2 40.37761306762695 2 L 14.62238788604736 2 C 11.84171772003174 2 8.652340888977051 3.529270648956299 6.090811729431152 6.090811729431152 C 3.529270648956299 8.652340888977051 2 11.84171772003174 2 14.62238788604736 L 2 23 L 53 23 M 55 25 L 0 25 L 0 14.62238788604736 C 0 7.59678840637207 7.59678840637207 0 14.62238788604736 0 L 40.37761306762695 0 C 47.40321350097656 0 55 7.59678840637207 55 14.62238788604736 L 55 25 Z" stroke="none" fill="#3499f6"/>
+        </g>
+        <path id="Oval_7" data-name="Oval 7" d="M16,42c8.837,0,16-8.278,16-18.489S24.837,0,16,0,0,13.3,0,23.511,7.163,42,16,42Z" transform="translate(11)" fill="#fff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_12" data-name="Path 12" d="M0,14a23.727,23.727,0,0,1,.812-3.995C2.942,4.145,5.654.638,6.721.049c1.245-.651,2.111,5.345,0,8.29C5.605,9.9,0,14,0,14Z" transform="translate(13 6)" fill="#7dbdff"/>
+        <circle id="Oval_8" data-name="Oval 8" cx="1.5" cy="1.5" r="1.5" transform="translate(29 19)" fill="#3499f6"/>
+        <rect id="Rectangle_19" data-name="Rectangle 19" width="9" height="3" rx="1.5" transform="translate(22 24)" fill="#3499f6"/>
+        <path id="Path_14" data-name="Path 14" d="M0,0S17.336,15.523,36,.926" transform="translate(9 48)" fill="none" stroke="#3499f6" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+    <g id="HEART" transform="translate(49 1140)">
+      <path id="Fill_1" data-name="Fill 1" d="M33.077,60l-4.635-4.553C11.242,40.446,0,30.332,0,17.928A17.816,17.816,0,0,1,18.184,0,19.993,19.993,0,0,1,33.077,6.848,19.993,19.993,0,0,1,47.97,0,17.816,17.816,0,0,1,66.154,17.928c0,12.4-11.242,22.518-28.442,37.519Z" transform="translate(8.269)" fill="#d8ebff" stroke="#3499f6" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_17" data-name="Path 17" d="M0,13.214H27.9l3.98-8.108,6.483,17.18L42.684,8.342l2.645,8.521L52.527,0l4.019,13.214H86" transform="translate(0 15.429)" fill="none" stroke="#3499f6" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

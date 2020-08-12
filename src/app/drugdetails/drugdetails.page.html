@@ -1,0 +1,67 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title text-center>Drug</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="header-container">
+    <img src="assets/imgs/header-nav.jpg" alt="">
+  </div>
+  <div class="d-btns-holder">
+    <ion-row>
+      <ion-col size="3" text-center id="fcol">
+        <h4>${{price}}.00</h4>
+      </ion-col>
+      <ion-col size="4" text-center>
+        <img src="assets/imgs/drug.svg" alt="">
+      </ion-col>
+      <ion-col size="5" text-center padding-horizontal id="lcol">
+        <h4>Quantity</h4>
+        <ion-input type="number" value="1" text-center (ionChange)="calculateFee()" [(ngModel)]="quantity"></ion-input>
+      </ion-col>
+    </ion-row>
+  </div>
+
+  <div class="des-holder" padding-horizontal text-center>
+    <div class="des-card">
+      <ion-row>
+        <ion-col size="7" text-left>
+          <h4>What is amoxilin?</h4>
+        </ion-col>
+        <ion-col size="5" text-right id="pic-col">
+          <img src="assets/imgs/expan.svg" alt="">
+        </ion-col>
+      </ion-row>
+      <p text-left text-wrap>
+        Amoxicillin is a semi-synthetic penicillin of moderate spectrum used in the treatment of infections…
+      </p>
+    </div>
+
+    <div class="des-card">
+      <ion-row>
+        <ion-col size="7" text-left>
+          <h4>Important information</h4>
+        </ion-col>
+        <ion-col size="5" text-right id="pic-col">
+          <img src="assets/imgs/expan.svg" alt="">
+        </ion-col>
+      </ion-row>
+      <p text-left text-wrap>
+        It acts on the bacterial membrane ...
+      </p>
+    </div>
+  </div>
+
+</ion-content>
+
+<ion-footer padding-horizontal no-border>
+  <ion-toolbar>
+    <ion-button (click)="goCart()" expand="block">
+      ADD TO CART
+    </ion-button>
+  </ion-toolbar>
+</ion-footer>

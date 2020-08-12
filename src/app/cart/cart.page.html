@@ -1,0 +1,105 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="drugdetails"></ion-back-button>
+    </ion-buttons>
+    <ion-title text-center>Cart</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="header-container">
+    <img src="assets/imgs/header-nav.jpg" alt="">
+  </div>
+  <div class="cart-list">
+    <ion-row>
+      <ion-col size="" id="img-col" text-center>
+        <img src="assets/imgs/pill.svg" alt="">
+      </ion-col>
+      <ion-col size="4" text-center>
+        <h5 text-wrap>Augmentin
+          Sachet</h5>
+      </ion-col>
+      <ion-col size="2.5" text-right>
+        <h5>$4.98</h5>
+      </ion-col>
+      <ion-col size="2" text-center>
+        <div text-center class="qunty">
+          <h5>1</h5>
+        </div>
+      </ion-col>
+      <ion-col size="1" text-left id="close-col">
+        <!-- <h5>X</h5> -->
+        <ion-icon name="md-close"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="" id="img-col" text-center>
+        <img src="assets/imgs/pill2.svg" alt="">
+      </ion-col>
+      <ion-col size="4" text-center>
+        <h5 text-wrap>BoneSure</h5>
+      </ion-col>
+      <ion-col size="2.5" text-right>
+        <h5>$4.98</h5>
+      </ion-col>
+      <ion-col size="2" text-center>
+        <div text-center class="qunty">
+          <h5>1</h5>
+        </div>
+      </ion-col>
+      <ion-col size="1" text-left id="close-col">
+        <!-- <h5>X</h5> -->
+        <ion-icon name="md-close"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="" id="img-col" text-center>
+        <img src="assets/imgs/pill.svg" alt="">
+      </ion-col>
+      <ion-col size="4" text-center>
+        <h5 text-wrap>Cetirizin
+          hydrochlorid</h5>
+      </ion-col>
+      <ion-col size="2.5" text-right>
+        <h5>$4.98</h5>
+      </ion-col>
+      <ion-col size="2" text-center>
+        <div text-center class="qunty">
+          <h5>1</h5>
+        </div>
+      </ion-col>
+      <ion-col size="1" text-left id="close-col">
+        <!-- <h5>X</h5> -->
+        <ion-icon name="md-close"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="" id="img-col" text-center>
+        <img src="assets/imgs/pill2.svg" alt="">
+      </ion-col>
+      <ion-col size="4" text-center>
+        <h5 text-wrap>Doxycyclin</h5>
+      </ion-col>
+      <ion-col size="2.5" text-right>
+        <h5>$4.98</h5>
+      </ion-col>
+      <ion-col size="2" text-center>
+        <div text-center class="qunty">
+          <h5>1</h5>
+        </div>
+      </ion-col>
+      <ion-col size="1" text-left id="close-col">
+        <ion-icon name="md-close"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </div>
+</ion-content>
+
+<ion-footer padding-horizontal no-border>
+  <ion-toolbar>
+    <ion-button (click)="showPayNow()" expand="block">
+     PAY NOW
+    </ion-button>
+  </ion-toolbar>
+</ion-footer>

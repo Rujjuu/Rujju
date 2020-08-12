@@ -1,0 +1,159 @@
+:host
+{
+    ion-radio
+    {
+        .radio-icon
+        {
+            display:none !important;
+        }
+    }
+}
+
+ion-toolbar{
+    --background: url(../../assets/imgs/header-nav.jpg);
+}
+
+ion-footer
+{
+    ion-toolbar{
+        --background: white;
+        ion-button{
+            margin-bottom: 20px !important;
+        }
+    }
+    
+}
+
+ion-back-button{
+    --color:white;
+    font-size: 1.3rem !important;
+}
+
+
+.custom-pagination {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 100%;
+    height: 4px;
+    z-index: 10;
+    padding: 0 8px;
+    text-align: center;
+  }
+  
+.pagination-bullet {
+    display: inline-block;
+    border-radius: 12px !important;
+    width: 30px;
+    height: 5px;
+   // display: block;
+    background-color: #ffffff;
+    margin: 5px 2px;
+    &.pagination-bullet-active {
+      background: #0052B0;
+    }
+  }
+
+.header-container
+{
+    margin-top: -40px !important;
+}
+
+.signup-slider
+{
+    ion-slides{
+        ion-slide{
+            ion-grid{
+                margin: 0 auto !important;
+            }
+            .cat-row
+            {
+                ion-col{
+                    margin: 5px 5px !important;
+                    p{
+                        color: #2D8FFF !important;
+                    }
+                   ion-radio{
+                       position: absolute !important;
+                       top: 0 !important;
+                       right:0 !important;
+                   }
+                    img{
+                        height: 70px;
+                    }
+                    box-shadow:0px 14px 36px rgba(52, 153, 246, 0.29) !important;
+                }
+            }
+
+            .section-title
+            {
+                margin: 20px 0;
+                h2{
+                    color: #2D8FFF !important;
+                }
+            }
+
+            #dob
+            {
+                ion-item{
+                    width: 300px !important;
+                }
+            }
+
+            #gender{
+                ion-radio-group
+                {
+                  width: 100% !important;
+                  ion-item{
+                    --padding-start:10px !important;
+                    width: 300px !important;
+                    text-align: center !important;
+                    --background: white !important;
+                    --color:#95C6FF;
+                    .item-native
+                    {
+                      padding: 0 !important;
+                    }
+                    ion-label{
+                      font-size: 1.3rem !important;
+                    }
+            
+                    ion-radio{
+                     margin: 0 !important;
+                     
+                    }
+                  }
+            
+                  .item-radio-checked
+                  {
+                    --background: #2D8FFF !important;
+                    --color:white !important;
+                    ion-radio
+                    {
+                        --color:white !important;
+                        .radio-icon
+                        {
+                            display: none !important;
+                        }
+                     
+                    }
+                  }
+            
+                }
+            }
+
+            #weight,#height
+            {
+                ion-item{
+                    width: 300px !important;
+                    ion-label{
+                        font-size: 1.3rem !important;
+                        --color:#95C6FF;
+                      }
+                }  
+            }
+
+       
+        }
+    }
+}

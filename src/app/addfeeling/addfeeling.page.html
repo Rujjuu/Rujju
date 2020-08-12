@@ -1,0 +1,40 @@
+<ion-header>
+    
+  <ion-toolbar>
+    <ion-buttons slot="start">
+        <ion-back-button defaultHref="responder"></ion-back-button>
+      </ion-buttons>
+    <ion-title>How are you feeling?</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+    <div class="header-container">
+		<img src="assets/imgs/header-nav.jpg" alt="">
+	</div>
+    <div class="header-container" padding>
+        <div class="front">
+            <div class="the-form" padding>
+
+                <ion-item class="input-item ">
+                   
+                    <ion-textarea #messageInput auto-resize [(ngModel)]="typingMessage" rows="8" placeholder="Write about your feelings">
+                    </ion-textarea>
+                </ion-item>
+
+            </div>
+        </div>
+
+        <div class="btns-holder" padding>
+            
+            <ion-button expand="block" text-center [routerLink]="['/calltype']">
+                Next
+            </ion-button>
+        </div>
+        
+    </div>
+    <div class="bottom-img-holder" padding-horizontal>
+		<img src="assets/imgs/login-bottom-img.svg" alt="">
+	</div>
+</ion-content>
+<footer></footer>

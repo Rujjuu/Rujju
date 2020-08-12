@@ -1,0 +1,30 @@
+:host
+{
+  
+}
+
+ion-slide {
+    display: block !important;
+
+    .slide-img
+    {
+        margin-top: 20%;
+        img
+        {
+            height: 100vw;
+        }
+    }
+
+    .slide-title
+    {
+        font-weight: bolder !important;
+        color: #2D8FFF !important;
+    }
+
+    .slide-description
+    {
+        color: #95C7FF !important;
+    }
+  }
+
+ 

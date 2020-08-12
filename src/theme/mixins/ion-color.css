@@ -1,0 +1,46 @@
+/*
+Error: Invalid CSS after "...lor-#{$color}) ": expected "}", was "!important;"
+        on line 5 of /Users/Ramon/Documents/Projects/Hopper.Fit Website/app/HopperFit/src/theme/mixins/ion-color.scss
+
+1: @mixin ion-color($color) {
+2:   @content;
+3: 
+4:   .ion-color-#{$color} {
+5:     --ion-color-base: var(--ion-color-#{$color}) !important;
+6:     --ion-color-base-rgb: var(--ion-color-#{$color}-rgb) !important;
+7:     --ion-color-contrast: var(--ion-color-#{$color}-contrast) !important;
+8:     --ion-color-contrast-rgb: var(--ion-color-#{$color}-contrast-rgb) !important;
+9:     --ion-color-shade: var(--ion-color-#{$color}-shade) !important;
+10:     --ion-color-tint: var(--ion-color-#{$color}-tint) !important;
+
+Backtrace:
+/Users/Ramon/Documents/Projects/Hopper.Fit Website/app/HopperFit/src/theme/mixins/ion-color.scss:5
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:1278:in `expected'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:1208:in `expected'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:1203:in `tok!'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:679:in `block'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:697:in `block_child'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:689:in `block_contents'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:678:in `block'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:246:in `mixin_directive'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:234:in `special_directive'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:209:in `directive'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:696:in `block_child'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:686:in `block_contents'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:137:in `stylesheet'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:41:in `parse'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/engine.rb:414:in `_to_tree'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/engine.rb:290:in `render'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:400:in `run'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/bin/sass:37:in `load'
+/Applications/Adobe Dreamweaver CC 2019/Adobe Dreamweaver 2019.app/Contents/Resources/gems/bin/sass:37:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...lor-#{$color}) \": expected \"}\", was \"!important;\"\A         on line 5 of /Users/Ramon/Documents/Projects/Hopper.Fit Website/app/HopperFit/src/theme/mixins/ion-color.scss\A \A 1: @mixin ion-color($color) {\A 2:   @content;\A 3: \A 4:   .ion-color-#{$color} {\A 5:     --ion-color-base: var(--ion-color-#{$color}) !important;\A 6:     --ion-color-base-rgb: var(--ion-color-#{$color}-rgb) !important;\A 7:     --ion-color-contrast: var(--ion-color-#{$color}-contrast) !important;\A 8:     --ion-color-contrast-rgb: var(--ion-color-#{$color}-contrast-rgb) !important;\A 9:     --ion-color-shade: var(--ion-color-#{$color}-shade) !important;\A 10:     --ion-color-tint: var(--ion-color-#{$color}-tint) !important;"; }

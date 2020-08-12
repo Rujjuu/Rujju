@@ -1,0 +1,38 @@
+.caller-back
+{
+    background: url(../../../assets/imgs/vcall.png);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+
+
+    .doc-holder
+    {
+        padding-top: 20px;
+
+        .doc-card{
+            height: 100px;
+            img{
+                height: 150px;
+            }
+        }
+    }
+
+
+    .btns-holder
+    {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 5% !important;
+        ion-button{
+            display: inline-block !important;
+            height: 80px !important;
+            width: 80px !important;
+            margin: 10px !important;
+        }
+    }
+    
+}

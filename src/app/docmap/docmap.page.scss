@@ -1,0 +1,78 @@
+ion-content{}
+
+.the-map
+{
+    height: 100%;
+    margin-top: -30px;
+    z-index: -1;
+    img{
+        height: 100%;
+    }
+}
+
+.header-container
+{
+    position: relative;
+    margin-top: -40px !important;
+    z-index: 100 !important;
+}
+
+.doc-slider
+{
+    margin-top: -90%;
+   
+    ion-slides{
+        background: transparent !important;
+        ion-slide{
+            background: transparent !important;
+            //margin-right: 100px !important;
+        }
+    }
+    .doc-card{
+        background-image: linear-gradient(90deg, #2d8fff 0%, #9bcaff 100%);
+        width: 200px;
+        .rating{
+            padding: 10px;
+            p{
+                color: white !important;
+                margin: 0 !important;
+                span{
+                    img{
+                        height: 15px !important;
+                    }
+                }
+            }
+        }
+
+        .profile
+        {
+            margin-bottom: 10px;
+            .thumb
+            {
+                margin-bottom: 10px;
+                img{
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                }
+            }
+
+            h5,p{
+                margin: 0 !important;
+                color: white !important;
+            }
+
+            p{
+                font-size: 1.1rem !important;
+                font-weight: lighter !important;
+            }
+        }
+
+        .btns-holder
+        {
+            ion-col{
+                background: var(--ion-color-primary) !important;
+            }
+        }
+    }
+}

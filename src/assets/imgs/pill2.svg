@@ -1,0 +1,9 @@
+<svg id="pills-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2d8fff"/>
+      <stop offset="1" stop-color="#9bcaff"/>
+    </linearGradient>
+  </defs>
+  <path id="Fill_6" data-name="Fill 6" d="M22,44A22,22,0,1,1,22,0c.45,0,.913.014,1.377.042A22,22,0,0,1,22,44ZM22,3.548a18.445,18.445,0,1,0,1.158.035C22.781,3.56,22.391,3.548,22,3.548ZM31.33,26.6H12.67a4.6,4.6,0,0,1,0-9.2H31.33a4.6,4.6,0,1,1,0,9.2ZM12.67,20.947a1.053,1.053,0,1,0,0,2.107H31.33a1.053,1.053,0,1,0,0-2.107Z" fill="url(#linear-gradient)"/>
+</svg>

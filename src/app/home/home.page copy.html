@@ -1,0 +1,69 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-title text-center>Choose what you want</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="header-container">
+    <img src="assets/imgs/header-nav.jpg" alt="">
+  </div>
+  <div class="cat-menu">
+    <ion-grid>
+      <ion-row class="cat-row" text-center>
+        <ion-col size="5" class="cat-col">
+          <ion-button text-center fill="none" expand="block" (click)="goFindaDoctor()">
+            <ion-label>
+              <img src="assets/imgs/categoryicns/icn-doctor.svg" alt="">
+              <p>Find a Doctor</p>
+            </ion-label>
+          </ion-button>
+        </ion-col>
+        <ion-col size="5" class="cat-col">
+          <ion-button text-center fill="none" (click)="goFindaHospital()">
+            <ion-label>
+              <img src="assets/imgs/categoryicns/icn-hospital.svg" alt="">
+              <p>Find a Hospital</p>
+            </ion-label>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row class="cat-row" text-center>
+        <ion-col size="5" class="cat-col">
+          <ion-button text-center fill="none" expand="block" (click)="goFindaPharmacy()">
+            <ion-label>
+              <img src="assets/imgs/categoryicns/icn-pharmacy.svg" alt="">
+              <p>Find a Pharmacy</p>
+            </ion-label>
+          </ion-button>
+        </ion-col>
+        <ion-col size="5" class="cat-col">
+          <ion-button text-center fill="none" (click)="goDocList()">
+            <ion-label>
+              <img src="assets/imgs/categoryicns/icn-schedule.svg" alt="">
+              <p text-wrap>Schedule Consult</p>
+            </ion-label>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row class="cat-row" text-center>
+          <ion-col size="5" class="cat-col">
+            <ion-button text-center fill="none" expand="block" (click)="goFindaClinic()">
+              <ion-label>
+                <img src="assets/imgs/categoryicns/icn-clinic.svg" alt="">
+                <p>Find a Clinic</p>
+              </ion-label>
+            </ion-button>
+          </ion-col>
+          <ion-col size="5" class="cat-col">
+            <ion-button text-center fill="none" (click)="goDrugFindDdrugs()">
+              <ion-label>
+                <img src="assets/imgs/categoryicns/icn-lab.svg" alt="">
+                <p text-wrap>Find a Drug</p>
+              </ion-label>
+            </ion-button>
+          </ion-col>
+        </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

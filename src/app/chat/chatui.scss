@@ -1,0 +1,121 @@
+/* Chat UI v1.0.0 */
+$myMsgColor: linear-gradient(90deg, #2d8fff 0%, #9bcaff 100%);
+$otherMsgColor: white;
+$tailSize: 10px;
+$greyColor: #8E8E90;
+
+.chat-list {
+  margin-right: 10px !important;
+  margin-left: 10px !important;
+  .chat-item {
+    margin-bottom: 8px;
+  }
+
+  .chat-timestamp {
+    text-align: center;
+    font-size: 0.8em;
+    padding: 8px;
+    color: $greyColor;
+  }
+
+  .chat-item-status {
+    font-size: .8em;
+    color: $greyColor;
+  }
+
+  .chat-avatar {
+    margin-right: 8px;
+    align-self: flex-end;
+    width: 40px;
+    height: 40px;
+    img {
+      display: inline-block;
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+
+  .chat-item-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .chat-item-bubble {
+    position: relative;
+    max-width: 80%;
+    margin-bottom: 4px;
+    .icon-tail {
+      position: absolute;
+      top: inherit;
+      right: inherit;
+      bottom: 6px;
+      left: -9px;
+      border-bottom: $tailSize solid $otherMsgColor;
+      border-right: $tailSize solid $otherMsgColor;
+      border-top: $tailSize solid transparent;
+      border-left: $tailSize solid transparent;
+      border-bottom-left-radius: 6px;
+    }
+
+    .chat-body {
+      display: inline-block;
+      background: $otherMsgColor;
+      border-radius: 10px;
+      padding: 8px 12px;
+      white-space: normal;
+      max-width: 100%;
+      text-align: left;
+      font-size: 1.2em;
+      box-shadow:0px 2px 25px rgba(0, 0, 0, 0.1);
+
+      &.photo {
+        padding: 0;
+      }
+    }
+
+    &.bubble-image {
+      .icon-tail {
+        display: none;
+      }
+      img {
+        width: 100%;
+        max-width: 480px;
+        border-radius: 16px;
+      }
+    }
+  }
+
+  .chat-item {
+    &.chat-item-sender {
+      text-align: right;
+      .icon-tail {
+        left: inherit;
+        top: inherit;
+        right: -9px;
+        border-bottom: $tailSize solid $myMsgColor;
+        border-right: $tailSize solid transparent;
+        border-top: $tailSize solid transparent;
+        border-bottom-right-radius: 6px;
+      }
+
+      .chat-item-content {
+        justify-content: flex-end;
+       
+      }
+
+      .chat-body {
+        background: $myMsgColor;
+        color: #fff;
+      }
+    }
+  }
+
+  .chat-item-reaction {
+    text-align: left;
+    padding: 0 8px;
+    font-size: 1.5em;
+    color: $otherMsgColor;
+    align-self: center;
+    flex-grow: 99;
+  }
+}

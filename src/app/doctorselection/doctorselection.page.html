@@ -1,0 +1,85 @@
+<ion-header no-border>
+    
+	<ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="doctorlist"></ion-back-button>
+          </ion-buttons>
+		<ion-title text-center>Select type of doctor</ion-title>
+		
+	</ion-toolbar>
+
+</ion-header>
+
+<ion-content>
+    <div class="header-container">
+		<img src="assets/imgs/header-nav.jpg" alt="">
+	</div>
+  <div class="cat-menu">
+		<ion-grid>
+			<ion-row class="cat-row" text-center>
+				<ion-col  class="cat-col">
+          
+					<ion-button (click)="selectDoc('child specialist')" text-center fill="none" expand="block" [routerLink]="['/doctorlist']">
+					<ion-label>
+						<img src="assets/imgs/categoryicns/icn-patient.svg" alt="">
+						<p>Child Specialist</p>
+					</ion-label>
+					</ion-button>
+					
+				</ion-col>
+				<ion-col  class="cat-col">
+					<ion-button (click)="selectDoc('heart specialist')" text-center fill="none" expand="block" [routerLink]="['/doctorlist']">
+						<ion-label>
+							<img src="assets/imgs/categoryicns/icn-heart-with-pulse.png" alt="">
+							<p>Heart Specialist</p>
+						</ion-label>
+					</ion-button>
+                </ion-col>
+            </ion-row>
+            <ion-row class="cat-row" text-center>
+                <ion-col  class="cat-col">
+					<ion-button (click)="selectDoc('orthopetic')" text-center fill="none" expand="block" [routerLink]="['/doctorlist']">
+						<ion-label>
+							<img src="assets/imgs/categoryicns/icn-physical-therapy.png" alt="">
+							<p>Orthopetic</p>
+						</ion-label>
+					</ion-button>
+				</ion-col>
+			
+			
+				
+				<ion-col  class="cat-col">
+					<ion-button (click)="selectDoc('mental health')" text-center fill="none" expand="block" [routerLink]="['/doctorlist']">
+						<ion-label>
+							<img src="assets/imgs/categoryicns/icn-beginner.png" alt="">
+							<p>Mental Health</p>
+						</ion-label>
+					</ion-button>
+                </ion-col>
+
+            </ion-row>
+            <ion-row class="cat-row" text-center>
+
+                <ion-col  class="cat-col">
+					<ion-button (click)="selectDoc('skin')" text-center fill="none" expand="block" [routerLink]="['/doctorlist']">
+						<ion-label>
+							<img src="assets/imgs/categoryicns/icn-skin.png" alt="">
+							<p>Skin</p>
+						</ion-label>
+					</ion-button>
+                </ion-col>
+                <ion-col  class="cat-col">
+					<ion-button (click)="selectDoc('kidney')" text-center fill="none" expand="block" [routerLink]="['/doctorlist']">
+						<ion-label>
+							<img src="assets/imgs/categoryicns/icn-kidney.png" alt="">
+							<p>kidney</p>
+						</ion-label>
+					</ion-button>
+				</ion-col>
+			</ion-row>
+
+		</ion-grid>
+    </div>
+</ion-content>
+
+<footer></footer>

@@ -1,0 +1,124 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title text-center>Doctors</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="header-container">
+    <img src="assets/imgs/header-nav.jpg" alt="">
+  </div>
+  <div class="list-menu">
+    <ion-item *ngFor="let row of userList" lines="none" (click)="goDocDetails(row.id)">
+      <ion-avatar slot="start">
+        <img src="assets/imgs/doclist/lucia.png" alt="">
+      </ion-avatar>
+      <ion-label>
+        <h1>{{row.name}}</h1>
+        <!-- <ion-row>
+          <ion-col size="2" no-padding>
+            <img src="assets/imgs/locpin.svg" alt="">
+          </ion-col>
+          <ion-col size="9" text-left no-padding>
+            <p>0.8 km away</p>
+          </ion-col>
+        </ion-row> -->
+      </ion-label>
+      <div class="end-icn" slot="end">
+        <ion-row text-right>
+          <ion-col text-right>
+            <img src="assets/imgs/star.svg" alt="">
+          </ion-col>
+          <ion-col>
+            <p>5.0</p>
+          </ion-col>
+        </ion-row>
+      </div>
+    </ion-item>
+
+    <!-- <ion-item lines="none" (click)="goDocDetails()">
+      <ion-avatar slot="start">
+        <img src="assets/imgs/doclist/pedro.png" alt="">
+      </ion-avatar>
+      <ion-label>
+        <h1>Dr. Pedro</h1>
+        <ion-row>
+          <ion-col size="2" no-padding>
+            <img src="assets/imgs/locpin.svg" alt="">
+          </ion-col>
+          <ion-col size="9" text-left no-padding>
+            <p>0.8 km away</p>
+          </ion-col>
+        </ion-row>
+      </ion-label>
+      <div class="end-icn" slot="end">
+        <ion-row text-right>
+          <ion-col text-right>
+            <img src="assets/imgs/star.svg" alt="">
+          </ion-col>
+          <ion-col>
+            <p>5.0</p>
+          </ion-col>
+        </ion-row>
+      </div>
+    </ion-item>
+
+    <ion-item lines="none" (click)="goDocDetails()">
+      <ion-avatar slot="start">
+        <img src="assets/imgs/doclist/sopia.png" alt="">
+      </ion-avatar>
+      <ion-label>
+        <h1>Dr. Sophia</h1>
+        <ion-row>
+          <ion-col size="2" no-padding>
+            <img src="assets/imgs/locpin.svg" alt="">
+          </ion-col>
+          <ion-col size="9" text-left no-padding>
+            <p>0.8 km away</p>
+          </ion-col>
+        </ion-row>
+      </ion-label>
+      <div class="end-icn" slot="end">
+        <ion-row text-right>
+          <ion-col text-right>
+            <img src="assets/imgs/star.svg" alt="">
+          </ion-col>
+          <ion-col>
+            <p>5.0</p>
+          </ion-col>
+        </ion-row>
+      </div>
+    </ion-item>
+
+    <ion-item lines="none" (click)="goDocDetails()">
+      <ion-avatar slot="start">
+        <img src="assets/imgs/doclist/ralph.png" alt="">
+      </ion-avatar>
+      <ion-label>
+        <h1>Dr. Ralph</h1>
+        <ion-row>
+          <ion-col size="2" no-padding>
+            <img src="assets/imgs/locpin.svg" alt="">
+          </ion-col>
+          <ion-col size="9" text-left no-padding>
+            <p>0.8 km away</p>
+          </ion-col>
+        </ion-row>
+      </ion-label>
+      <div class="end-icn" slot="end">
+        <ion-row text-right>
+          <ion-col text-right>
+            <img src="assets/imgs/star.svg" alt="">
+          </ion-col>
+          <ion-col>
+            <p>5.0</p>
+          </ion-col>
+        </ion-row>
+      </div>
+    </ion-item> -->
+    </div>
+</ion-content>
+<footer></footer>

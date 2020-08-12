@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2d8fff"/>
+      <stop offset="1" stop-color="#9bcaff"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_34" data-name="Group 34" transform="translate(-111 -46)">
+    <path id="Path_5" data-name="Path 5" d="M0,0H100V100H0Z" transform="translate(111 46)" fill="none"/>
+    <g id="medicine-book" transform="translate(125 47.894)">
+      <path id="Fill_2" data-name="Fill 2" d="M22.617,45.233a9.791,9.791,0,0,1-9.78-9.78V32.4H9.781a9.78,9.78,0,1,1,0-19.561h3.056V9.78a9.78,9.78,0,1,1,19.56,0v3.057h3.056a9.78,9.78,0,1,1,0,19.56H32.4v3.056A9.791,9.791,0,0,1,22.617,45.233ZM9.781,18.016a4.6,4.6,0,1,0,0,9.2h5.647a2.592,2.592,0,0,1,2.589,2.589v5.646a4.6,4.6,0,0,0,9.2,0V29.808a2.592,2.592,0,0,1,2.589-2.589h5.647a4.6,4.6,0,0,0,0-9.2H29.807a2.592,2.592,0,0,1-2.589-2.589V9.781a4.6,4.6,0,1,0-9.2,0v5.647a2.591,2.591,0,0,1-2.589,2.589Z" transform="translate(13.636 15.058)" fill="url(#linear-gradient)"/>
+      <path id="Fill_3" data-name="Fill 3" d="M0,0H14.926V9.542a.856.856,0,0,1-1.189.663L7.792,8.142a1.02,1.02,0,0,0-.659,0L1.189,10.205A.855.855,0,0,1,0,9.542Z" transform="translate(44.328 83.149)" fill="url(#linear-gradient)"/>
+      <path id="Fill_4" data-name="Fill 4" d="M16.657,15.44a3.607,3.607,0,0,1-1.179-.2l-5.426-1.883L4.627,15.24a3.6,3.6,0,0,1-1.18.2A3.384,3.384,0,0,1,0,12.132V2.589A2.593,2.593,0,0,1,2.59,0H17.515A2.592,2.592,0,0,1,20.1,2.589v9.542A3.385,3.385,0,0,1,16.657,15.44Zm-6.6-7.353a3.552,3.552,0,0,1,1.177.2l3.7,1.282V5.179H5.179V9.567L8.873,8.285A3.579,3.579,0,0,1,10.052,8.087Z" transform="translate(41.738 80.56)" fill="url(#linear-gradient)"/>
+      <path id="Fill_6" data-name="Fill 6" d="M64.22,85.454H11.653A11.666,11.666,0,0,1,0,73.8V11.653A11.666,11.666,0,0,1,11.653,0H64.22a8.3,8.3,0,0,1,8.286,8.286V55.458a2.589,2.589,0,0,1-5.179,0V8.286A3.111,3.111,0,0,0,64.22,5.179H11.653a6.481,6.481,0,0,0-6.474,6.474V73.8a6.482,6.482,0,0,0,6.474,6.474H64.22a3.111,3.111,0,0,0,3.108-3.108v-8.5a2.589,2.589,0,0,1,5.179,0v8.5a8.3,8.3,0,0,1-8.286,8.286Z" transform="translate(0 0.106)" fill="url(#linear-gradient)"/>
+      <path id="Fill_8" data-name="Fill 8" d="M29.674,5.179H2.589A2.589,2.589,0,0,1,2.589,0H29.674a2.589,2.589,0,1,1,0,5.179Z" transform="translate(20.122 64.096)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,255 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+ion-toolbar{
+    --background: url(./assets/imgs/header-nav.jpg);
+
+    ion-back-button{
+        --color:white;
+        color: white !important;
+        font-size: 1.3rem !important;
+        padding-top: 20px !important;
+    }
+
+    ion-title{
+        color: white !important;
+        font-size: 1.3rem !important;
+        font-weight: 400 !important;
+        padding-top: 20px !important;
+    }
+}
+.swiper-pagination-bullets{
+    margin-top: 10px !important;
+    position: relative !important;
+}
+.swiper-pagination-bullet
+{
+    border-radius: 12px !important;
+    width: 20px !important;
+}
+
+.swiper-pagination-bullet-active
+{
+    background:  linear-gradient(to right,#c5e9ff 0%, #2d8fff 100%);
+}
+
+ion-button{
+    height: 50px !important;
+    --border-radius: 50px !important;
+    --box-shadow:none !important;
+    --box-shadow:0px 24px 36px rgba(45, 143, 255, 0.3) !important;
+    font-size: 1.4rem !important;
+    font-weight: 400 !important;
+    button{
+        --box-shadow:0px 24px 36px rgba(45, 143, 255, 0.3) !important;
+    }
+  //  
+}
+
+.the-form{
+    ion-item{
+        border-radius: 50px !important;
+        box-shadow:0px 14px 36px rgba(52, 153, 246, 0.29) !important;
+        margin: 15px 0 !important;
+
+        span
+        {
+            img{
+                height: 20px;
+                width: 20px;
+            }
+        }
+
+        ion-input,ion-datetime{
+            --placeholder-color	: #95C6FF;
+            --placeholder-font-weight:400;
+            font-size: 1.3rem !important;
+        }
+    }
+}
+
+.cat-menu
+{
+    .cat-row{
+        .cat-col{
+            margin: 5px 7px !important;
+            ion-button{
+                --border-radius: 5px !important;
+                --box-shadow:0px 14px 36px rgba(52, 153, 246, 0.2) !important;
+                height: 125px !important;
+                // width: 40vw !important;
+
+                img{
+                    height: 70px;
+                }
+
+                p{
+                    color: var(--ion-color-primary) !important;
+                    margin-top: 5px !important;
+                    text-transform: none !important;
+                }
+                
+            }
+
+           
+        }
+    }
+}
+
+.list-menu
+{
+    padding: 0 10px;
+
+    ion-item{
+        box-shadow:0px 14px 36px rgba(52, 153, 246, 0.2) !important;
+        margin: 15px 0 !important;
+        padding: 0px 5px !important;
+        
+        .thumb{
+
+            margin-right: 10px;
+            padding: 10px 0 !important;
+
+            img{
+                height: 60px !important;
+
+            }
+        }
+
+        ion-label{
+            color: var(--ion-color-primary) !important;
+            ion-col{
+                img{
+                    height: 20px !important;
+                }
+            }
+        }
+
+        .end-icn
+        {
+            margin-top: 20px !important;
+            padding-right: 10px;
+            ion-col{
+                img{
+                    height: 25px !important;
+                }
+               }
+               
+            p{
+                color: var(--ion-color-primary) !important;
+                margin: 0 !important;
+                font-size: 1.3rem !important;
+            }
+          
+        }
+    }
+}
+
+.header-container
+{
+    margin-top: -40px !important;
+    z-index: 100 !important;
+}
+
+.double-title
+{
+    h5,p{
+        margin: 0 !important;
+    }
+
+    h5{
+        font-size: 1.4rem !important;
+    }
+    p{
+        font-size: 1rem !important;
+    }
+}
+
+
+.top-btns-holder
+{
+    ion-row
+    {
+        .btns-col
+        {
+            padding-top: 20px !important;
+        }
+        ion-col{
+            ion-button
+            {
+                height: 65px !important;
+                width: 65px !important;
+                --border-radius:50% !important;
+
+                img{
+                    height: 20px !important;
+                }
+            }
+        }
+    }
+    #top-pic-holder
+    {
+        img
+        {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+    }
+}
+
+.ratings-d
+{
+    padding: 10px;
+    p{
+        color: var(--ion-color-primary) !important;
+        margin: 0 !important;
+        span{
+            img{
+                height: 15px !important;
+            }
+        }
+    }
+
+    #num
+    {
+        color: black !important;
+    }
+}
+
+.description-holder
+{
+    .desc-card
+    {
+        color: var(--ion-color-primary) !important;
+        border-radius: 5px;
+        box-shadow:0px 14px 36px rgba(52, 153, 246, 0.29);
+    }
+}
+
+
+

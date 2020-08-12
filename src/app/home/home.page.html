@@ -1,0 +1,63 @@
+<ion-header no-border>
+
+	<ion-toolbar>
+		
+		<ion-title text-center>Choose what you want</ion-title>
+		<ion-buttons slot="end" (click)="logout()">
+			<ion-icon class="headerIcon" name="log-out"></ion-icon>
+		</ion-buttons>
+	</ion-toolbar>
+
+</ion-header>
+
+<ion-content>
+	<div class="header-container">
+		<img src="assets/imgs/header-nav.jpg" alt="">
+	</div>
+	<div class="cat-menu">
+		<ion-grid>
+			<ion-row class="cat-row" text-center>
+				<ion-col  class="cat-col" (click)="goToEmergency()">
+					<ion-button text-center fill="none" expand="block" >
+						<ion-label>
+							<img src="assets/imgs/categoryicns/icn-ambulance.png" alt="">
+							<p>Emergency</p>
+						</ion-label>
+					</ion-button>
+				</ion-col>
+				<ion-col  class="cat-col">
+					<ion-button text-center fill="none" expand="block" (click)="goToAppointment()">
+						<ion-label>
+							<img src="assets/imgs/categoryicns/icn-schedule.svg" alt="">
+							<p>Appointment</p>
+						</ion-label>
+					</ion-button>
+				</ion-col>
+			</ion-row>
+			<ion-row class="cat-row" text-center>
+				<ion-col  class="cat-col">
+					<ion-button text-center fill="none" expand="block" (click)="goToResponder()">
+						<ion-label>
+							<img src="assets/imgs/categoryicns/icn-doctor.svg" alt="">
+							<p>First Responder</p>
+						</ion-label>
+					</ion-button>
+				</ion-col>
+				<ion-col  class="cat-col">
+					<ion-button text-center fill="none" expand="block" (click)="goToChat()">
+						<ion-label>
+							<img src="assets/imgs/categoryicns/icn-chat.png" alt="">
+							<p>Chat</p>
+						</ion-label>
+					</ion-button>
+				</ion-col>
+			</ion-row>
+
+        </ion-grid>        
+        
+    </div>    
+    <div class="bottom-img-holder" padding-horizontal>
+		<img src="assets/imgs/login-bottom-img.svg" alt="">
+	</div>
+</ion-content>
+<footer></footer>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32.863" height="43.896" viewBox="0 0 32.863 43.896">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2d8fff"/>
+      <stop offset="1" stop-color="#1344b3"/>
+    </linearGradient>
+  </defs>
+  <g id="padlock" transform="translate(0 -0.104)" opacity="0.441">
+    <path id="Fill_1" data-name="Fill 1" d="M25.75,43.9H7.113A7.121,7.121,0,0,1,0,36.783V21.493A2.376,2.376,0,0,1,2.374,19.12H2.229v-.354c0-4.49-.006-10.078,3.466-14.057a13.934,13.934,0,0,1,4.893-3.55A15.942,15.942,0,0,1,16.431,0,13.42,13.42,0,0,1,29.843,13.4V19.12h.645a2.376,2.376,0,0,1,2.374,2.373v15.29A7.121,7.121,0,0,1,25.75,43.9ZM2.465,21.576V36.783a4.662,4.662,0,0,0,4.657,4.658H25.75a4.662,4.662,0,0,0,4.657-4.658V21.576ZM4.685,19.12h22.7V13.4A10.961,10.961,0,0,0,16.431,2.456c-3.1,0-7.335,1.292-9.319,4.127-2.431,3.475-2.429,9.036-2.428,12.358Z" transform="translate(0 0.104)" fill="url(#linear-gradient)"/>
+    <path id="Fill_4" data-name="Fill 4" d="M4.594,9.186A4.593,4.593,0,1,1,9.186,4.594,4.6,4.6,0,0,1,4.594,9.186Zm0-6.739A2.142,2.142,0,1,0,6.73,4.585,2.144,2.144,0,0,0,4.594,2.447Z" transform="translate(11.842 27.2)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

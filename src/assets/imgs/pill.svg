@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43.85" height="43.85" viewBox="0 0 43.85 43.85">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2d8fff"/>
+      <stop offset="1" stop-color="#9bcaff"/>
+    </linearGradient>
+  </defs>
+  <g id="pill" transform="translate(0 -0.043)">
+    <path id="Fill_3" data-name="Fill 3" d="M13.987,31.431a14,14,0,0,1-9.9-23.888L11.24.394a1.349,1.349,0,0,1,1.906,0L31.028,18.277a1.347,1.347,0,0,1,0,1.906l-7.148,7.149A13.9,13.9,0,0,1,13.987,31.431ZM12.193,3.254h0L6,9.45A11.3,11.3,0,0,0,21.974,25.426l6.2-6.2L12.193,3.254Z" transform="translate(0.087 12.382)" fill="url(#linear-gradient)"/>
+    <path id="Fill_4" data-name="Fill 4" d="M13.993,43.85h0A13.993,13.993,0,0,1,4.1,19.963L19.97,4.091A13.993,13.993,0,0,1,39.758,23.88l-4.026,4.027A1.348,1.348,0,1,1,33.825,26l4.027-4.026A11.3,11.3,0,0,0,21.876,6L6,21.87A11.3,11.3,0,0,0,21.98,37.845a1.348,1.348,0,1,1,1.907,1.907,13.9,13.9,0,0,1-9.894,4.1Z" transform="translate(0 0.043)" fill="url(#linear-gradient)"/>
+    <path id="Fill_6" data-name="Fill 6" d="M1.348,17.141a1.348,1.348,0,0,1-.953-2.3L14.84.395A1.348,1.348,0,0,1,16.746,2.3L2.3,16.746a1.344,1.344,0,0,1-.953.395Z" transform="translate(9.109 9.145)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

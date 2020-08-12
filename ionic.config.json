@@ -1,0 +1,7 @@
+{
+  "name": "ionmedical",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

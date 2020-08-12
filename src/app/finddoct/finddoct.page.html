@@ -1,0 +1,77 @@
+<ion-header no-border>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="home"></ion-back-button>
+          </ion-buttons>
+      <ion-title text-center>Find a Doctor</ion-title>
+      <ion-buttons slot="end">
+        <ion-button (click)="goMapView()" id="end-btn">
+            <img src="assets/imgs/locpinw.svg" alt="">
+        </ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    <div class="header-container">
+      <img src="assets/imgs/header-nav.jpg" alt="">
+    </div>
+    <div class="cat-menu">
+      <ion-grid>
+        <ion-row class="cat-row" text-center>
+          <ion-col size="5" class="cat-col">
+            <ion-button text-center fill="none" expand="block" (click)="goDocList()">
+              <ion-label>
+                <img src="assets/imgs/fdocicns/fd1.svg" alt="">
+                <p>Cardiologist</p>
+              </ion-label>
+            </ion-button>
+          </ion-col>
+          <ion-col size="5" class="cat-col">
+            <ion-button text-center fill="none">
+              <ion-label>
+                <img src="assets/imgs/fdocicns/fd2.svg" alt="">
+                <p>Pediatrician</p>
+              </ion-label>
+            </ion-button>
+          </ion-col>
+        </ion-row>
+        <ion-row class="cat-row" text-center>
+          <ion-col size="5" class="cat-col">
+            <ion-button text-center fill="none" expand="block">
+              <ion-label>
+                <img src="assets/imgs/fdocicns/fd3.svg" alt="">
+                <p>Gynecology</p>
+              </ion-label>
+            </ion-button>
+          </ion-col>
+          <ion-col size="5" class="cat-col">
+            <ion-button text-center fill="none">
+              <ion-label>
+                <img src="assets/imgs/fdocicns/fd4.svg" alt="">
+                <p text-wrap>Ophthalmology</p>
+              </ion-label>
+            </ion-button>
+          </ion-col>
+        </ion-row>
+        <ion-row class="cat-row" text-center>
+            <ion-col size="5" class="cat-col">
+              <ion-button text-center fill="none" expand="block">
+                <ion-label>
+                  <img src="assets/imgs/fdocicns/fd5.svg" alt="">
+                  <p>Endocrinology</p>
+                </ion-label>
+              </ion-button>
+            </ion-col>
+            <ion-col size="5" class="cat-col">
+              <ion-button text-center fill="none">
+                <ion-label>
+                  <img src="assets/imgs/fdocicns/fd6.svg" alt="">
+                  <p text-wrap>Psychiatry</p>
+                </ion-label>
+              </ion-button>
+            </ion-col>
+          </ion-row>
+      </ion-grid>
+    </div>
+  </ion-content>
